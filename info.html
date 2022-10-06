@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/Style.css" />
+        <meta charset="utf-8"/>
+        <script src="/Components/Custom.js" type="text/javascript" defer></script>
+        <title>Very Vilnius</title>
+    </head>
+    <body>
+        <navbar-component-pc></navbar-component-pc>
+        <navbar-component-phone></navbar-component-phone>
+        <div class="bod2">
+            <div id="map-container">
+                <iframe id="map"
+                src="https://www.google.com/maps/d/u/0/embed?mid=1zF2xKfCgfwH1DAREQcwHJY1SMtiJP_s&ehbc=2E312F">
+                </iframe>
+            </div>
+            <div id="contact-us">
+                <form action="Contact-us.php" method="post" id="email-form" >
+                    <input type="text" name="name" id="name" class="email" placeholder="Name">
+                    <input type="email" name="adress" id="adress" class="email" placeholder="Your email adress">
+                    <input type="text" name="subject" id="subject" class="email" placeholder="Subject">
+                    <textarea name="message" id="message" class="email"  placeholder="Message"></textarea>
+                    <input type="submit" name='submit' id="submit" class="email">
+                </form>
+            </div>
+            <div id="street-view-container">
+                <iframe class="picture street-view" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!4v1661460408108!6m8!1m7!1sWSFbSuNmi_Q6kDwjm8NJpw!2m2!1d54.6815865405022!2d25.28918250252336!3f77.80364511088466!4f-11.121643148096581!5f0.7820865974627469">
+                </iframe>
+                <iframe class="picture street-view" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                src="https://www.google.com/maps/embed?pb=!4v1661456496324!6m8!1m7!1sPfeAJphISHZt_hCNe4iLCQ!2m2!1d54.6803476874727!2d25.28611904627498!3f137.70629101241215!4f-16.62928013088532!5f0.7820865974627469">
+                </iframe>
+                <iframe class="picture street-view" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                src="https://www.google.com/maps/embed?pb=!4v1661456637512!6m8!1m7!1sILRnAEcnHuMa8byO9kfJXg!2m2!1d54.68523299824259!2d25.27940928364117!3f340.18887502584835!4f-2.8886006903167782!5f0.7820865974627469">
+                </iframe>
+            </div>
+        </div>
+    </body>
+</html>

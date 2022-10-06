@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/Style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.css"/>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="/Components/Custom.js" type="text/javascript" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uevent@2/browser.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.js"></script>
+        <title>Very Vilnius | Pilies</title>
+    </head>
+    <body>
+        <navbar-component-pc></navbar-component-pc>
+        <navbar-component-phone></navbar-component-phone>
+        <div class="bod2">
+            <div class="Photosphere-container">
+                <div class="Photosphere " id="Pilies-viewer"></div>
+            </div>
+            
+            <script>
+                 const viewer = new PhotoSphereViewer.Viewer({
+                     navbar:[
+                         'zoom',
+                         'fullscreen',
+                     ],
+                     container: document.querySelector('#Pilies-viewer'),
+                     panorama: "/Home-img/Pilies-img/Flat/Pilies-HDRI.jpg",
+                 });
+            </script>
+    
+            <div class="gallery">
+                <div class="picture" style="grid-area: 1 / 1 / 4 / 4; 
+                background-image: url(/Home-img/Pilies-img/Flat/apt-16.png)"></div>
+                
+                <div class="picture" style="grid-area: 1 / 4 / 4 / 7; 
+                background-image: url(/Home-img/Pilies-img/Flat/apt-2.png)"></div>
+
+                <div class="picture" style="grid-area: 1 / 7 / 6 / 12; 
+                background-image: url(/Home-img/Pilies-img/Flat/apt-15.png)"></div>
+
+                <div class="picture" style="grid-area: 4 / 1 / 11 / 7; 
+                background-image: url(/Home-img/Pilies-img/Flat/apt-8.png)"></div>
+
+                <div class="picture" style="grid-area: 6 / 7 / 11 / 12; 
+                background-image: url(/Home-img/Pilies-img/Flat/apt-21.png)"></div>
+
+                <div class="picture" style="grid-area: 11 / 1 / 14 / 4;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-5.png)"></div>
+
+                <div class="picture" style="grid-area: 11 / 4 / 15 / 8;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-12.png)"></div>
+
+                <div class="picture" style="grid-area: 11 / 8 / 13 / 10;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-9.png)"></div>
+
+                <div class="picture" style="grid-area: 11 / 10 / 13 / 12;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-25.png)"></div>
+
+                <div class="picture" style="grid-area: 14 / 1 / 17 / 4;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-6.png)"></div>
+
+                <div class="picture" style="grid-area: 15 / 4 / 17 / 6;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-4.png)"></div>
+
+                <div class="picture" style="grid-area: 15 / 6 / 17 / 8;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-17.png)"></div>
+
+                <div class="picture" style="grid-area: 13 / 8 / 17 / 12;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-19.png)"></div>
+
+                <div class="picture" style="grid-area: 17 / 1 / 22 / 7;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-14.png)"></div>
+
+                <div class="picture" style="grid-area: 17 / 7 / 20 / 9;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-24.png)"></div>
+
+                <div class="picture" style="grid-area: 17 / 9 / 20 / 12;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-7.png)"></div>
+
+                <div class="picture" style="grid-area: 22 / 1 / 28 / 4;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-1.png)"></div>
+
+                <div class="picture" style="grid-area: 22 / 4 / 25 / 7;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-23.png)"></div>
+
+                <div class="picture" style="grid-area: 20 / 7 / 25 / 12;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-18.png)"></div>   
+
+                <div class="picture" style="grid-area: 25 / 4 / 28 / 8;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-20.png)"></div>
+
+                <div class="picture" style="grid-area: 25 / 8 / 34 / 12;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-3.png)"></div>
+
+                <div class="picture" style="grid-area: 28 / 1 / 34 / 8;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-22.png)"></div>
+
+                <div class="picture" style="grid-area: 34 / 1 / 44 / 12;
+                background-image: url(/Home-img/Pilies-img/Flat/apt-11.png)"></div>
+            </div> 
+        </div>
+    </body>
+</html>

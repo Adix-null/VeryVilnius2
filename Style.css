@@ -1,0 +1,553 @@
+/*I solemnly swear that I used the !important property after careful consideration and out of absolute necessity.*/
+*{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 350;
+}
+
+@font-face {
+    font-family: "Avenida-W01";
+    src: url(/Fonts/53f05821-c783-4593-bf20-c3d770f32863.woff) format('woff');
+}
+@font-face {
+    font-family: "Amatic-sc";
+    src: url(/Fonts/AmaticSC-Regular.ttf);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+:root{
+    --gray: rgb(90, 90, 90);
+    --white:rgb(240, 240, 240);
+    --blue:rgb(0, 22, 135);
+}
+
+a[href], button{
+    text-decoration: none;
+    color: currentColor;
+    background-color: unset;
+    border: none; 
+}
+li{
+    list-style: disc;
+}
+
+.animation-hover{
+    background-size: 100% 200%;
+    background-image: linear-gradient(0deg, var(--blue) 50%, rgba(0, 0, 0, 0)50.001%);
+    background-position: top;
+    transition: background-position 0.35s ease;
+}
+.animation-hover:hover{
+    background-position: bottom;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+.bod2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bod2 > *{
+    width: calc(100% - calc(calc(100vw - 500px) / 4));
+    max-width: 1500px;
+}
+
+/* <=== Scrollbar ===> */
+::-webkit-scrollbar{
+    width: 13px;
+}
+::-webkit-scrollbar-thumb{
+    background: #777;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #444;
+}
+
+/* <=== Navbar ===> */
+
+.navbar{
+    background-color: var(--gray);
+    display: flex;
+}
+.navbar.pc{
+    white-space: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+}
+.navbar.phone{
+    flex-direction: column;
+    min-width: 25vw;
+    max-width: 30vw;
+    height: 100%;
+    padding-left: 5px;
+}
+
+.navbar-title{
+    color: var(--white);
+    font-size: 2.5rem;
+    font-family: Avenida-W01;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+.navbar-title.pc{
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: none;
+}
+
+#empty{
+    width: 20px;
+}
+#empty2{
+    width: 100px;
+}
+.navbar-title.phone{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+/* <== Navbar Dropdown ==> */
+.Dropdown, .navbar-link{        
+    color: var(--white);
+    position: relative;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.Dropdown:hover .Dropdown-content.pc{
+    display: block;
+}
+
+.Dropdown-content.pc{
+    z-index: 1;
+    position: absolute;
+    
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.25);
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+    left: 0px;
+}
+.Dropdown-content{
+    display: none;    
+}
+
+.Dropdown-content a{  
+    display: block; 
+    padding: 6px;
+    font-family: Amatic-sc;
+    font-size: 1.6rem;
+    font-weight: 600;
+    white-space: nowrap;
+    animation: fadeIn 0.75s;
+}
+.Dropdown-content.phone a{
+    padding: 12px 0px 12px 20px;
+}
+.Dropdown-content.pc a:hover{  
+    background-color: var(--white);
+}
+
+.btn{
+    font-family: Amatic-sc;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+
+/* <=== Home ===> */
+
+#Title{
+    color: var(--gray);
+    padding: 15px 0px;
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: Amatic-sc;
+    text-align: center;
+}
+
+#subtitle{
+    color: var(--gray);
+    padding: 100px 50px 100px 0px; 
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: Amatic-sc;
+    letter-spacing: 5px;
+    text-align: end;
+}
+#locations{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.apartment-opt{
+    position: relative;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.thumb-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.street-links{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Amatic-sc;
+    font-weight: bold;
+    padding: 15px;  
+    letter-spacing: 2px;
+    
+    color: var(--white);
+    background-color: rgba(200, 200, 200, 0.5);
+    border-radius: 10px;
+}
+
+.booking{
+    max-width: 40%;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+
+/* <=== Extra info ===> */
+
+/* <== Map ==> */
+#map-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: -1;
+    width: 100%;
+}
+#map{
+    height: 70vh;
+    width: 90%;
+}
+
+#street-view-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+.street-view{
+    width: 30%;
+    aspect-ratio: 1 / 1;
+}
+
+/* <== Email ==> */
+#contact-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#email-form{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3, 50px);
+}
+
+.email{
+    outline: none;
+    text-transform: none;
+    font-family: initial;
+    margin: 4px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: inherit;
+}
+.email:focus{
+    border: 2px solid black;
+}
+#name{
+    grid-area: 1 / 1;
+}
+#adress{
+    grid-area: 2 / 1;
+}
+#subject{
+    grid-area: 3 / 1;
+}
+#message{
+    resize: none;
+    grid-area: 1 / 2 / 3 / 2;
+}
+#submit{
+    background-color: rgb(0, 117, 0);
+    color: var(--white);
+    grid-area: 3 / 2 / 4 / 2;
+}
+#submit:hover{
+    border: 3px solid black;
+}
+
+/* <=== Directions ===> */
+.dir-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+} 
+.directions{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dir-title-link{
+    color: var(--gray) !important;
+    padding: 30px 0px;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: Amatic-sc;
+    text-align: center;
+}
+.dir-title-link:hover{
+    color: black !important;
+}
+.directions div{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 500px auto;
+}
+
+.dir-title{
+    margin-top: 300px;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.step h1{
+    grid-area: 1 / 1;
+    padding: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.instruction-text{
+    grid-area: 2 / 1;
+    align-content: center;
+}
+.instruction-text p{
+    padding: 10px;
+}
+.instruction-text *{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: none;
+}
+.step .image{
+    grid-area: 2 / 2 / -1 / 2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    min-height: 350px;
+    margin: 5px;
+}
+
+
+/* <=== Miscellaneous ===> */
+
+/* <== Photosphere ==> */
+body{
+    min-height: 100vh;
+}
+.Photosphere-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Photosphere{
+    width: 100%;
+    padding: 3px;
+    height: 50vh;
+}
+
+/* <== Content display ==> */
+.gallery{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-auto-rows: 75px;
+    grid-auto-flow: row;
+    gap: 10px;
+}
+.picture{
+    border: 3px solid var(--blue);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+.picture:hover{
+    transform: scale(1.03, 1.03)
+}
+.picture-static{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* <== Section title ==> */
+.text-area{
+    border: 2px solid var(--gray);
+    padding: 10px;
+    text-transform: none;
+    line-height: 1.5rem;
+    overflow: scroll;
+}
+.text-area a{
+    text-decoration: underline;
+    text-transform: none;
+}
+.text-area ul li{
+    text-transform: none;
+}
+.section-title{
+    background-color: #606060;
+    display: flex;
+    text-align: start;
+}
+.section-title p{
+    color: white;
+    font-size: 3rem;
+    font-family: Amatic-sc;
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 1rem;
+}
+
+
+/* <== Street-img ==> */
+/* <= Pilies => */
+#p-d-1{background-image: url(/Home-img/Pilies-img/Directions/dir-1.png);}
+#p-d-2{background-image: url(/Home-img/Pilies-img/Directions/dir-2.png);}
+#p-d-3{background-image: url(/Home-img/Pilies-img/Directions/dir-3.png);}
+#p-d-4{background-image: url(/Home-img/Pilies-img/Directions/dir-4.png);}
+#p-d-5{background-image: url(/Home-img/Pilies-img/Directions/dir-5.png);}
+#p-d-6{background-image: url(/Home-img/Pilies-img/Directions/dir-6.png);}
+
+/* <= Pilies => */
+#s-d-1{background-image: url(/Home-img/Stikliu-img/Directions/dir-1.png);}
+#s-d-2{background-image: url(/Home-img/Stikliu-img/Directions/dir-2.png);}
+#s-d-3{background-image: url(/Home-img/Stikliu-img/Directions/dir-3.png);}
+#s-d-4{background-image: url(/Home-img/Stikliu-img/Directions/dir-4.png);}
+#s-d-5{background-image: url(/Home-img/Stikliu-img/Directions/dir-5.png);}
+
+
+/* <== Language ==> */
+.language-container{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 15px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    position: fixed;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+}
+.language-container a{
+    font-weight: 600;
+    font-size: 1.2rem;    
+}
+
+
+/* <=== Phone ===> */
+navbar-component-phone{
+    display: none;
+}
+@media (min-width: 1500px){
+    .language-container{
+        right: 20%;
+    }
+}
+@media (max-aspect-ratio: 9 / 13) {
+    navbar-component-pc{
+        display: none;
+    }
+    navbar-component-phone{
+        display: block;
+    }
+    body{
+        display: flex;
+        flex-direction: row;
+    }
+    #locations{
+        flex-direction: column;
+        align-items: center;
+    }
+    #map-container{
+        margin-top: 10px;
+    }
+    .navbar-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .gallery > *{
+        display: block;
+        width: 90%;
+    }
+    .picture, .picture-static{
+        /* because there's no way to get the height of a background image*/
+        aspect-ratio: 1;
+    }
+    .Photosphere{
+        width: 90%;
+    }
+    #street-view-container{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    .street-view{
+        width: 75%;
+        aspect-ratio: 1 / 1;
+    }
+    .directions div{
+        display: block;
+    }
+}
