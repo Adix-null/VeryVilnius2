@@ -48,7 +48,7 @@ if(isset($_POST['submit']))
     }
     echo "
     <script> 
-        document.location.href = 'Extra-Info.html';
+        document.location.href = 'info.html';
     </script>";
 }
 else
