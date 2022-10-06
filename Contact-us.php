@@ -1,7 +1,7 @@
 <?php
 
-use PHPMailer\PHPmailer\PHPMailer;
-use PHPMailer\PHPmailer\Exception;
+use \PHPMailer\PHPmailer\PHPMailer;
+use \PHPMailer\PHPmailer\Exception;
 require 'sendemail/src/Exception.php';
 require 'sendemail/src/PHPMailer.php';
 require 'sendemail/src/SMTP.php';
