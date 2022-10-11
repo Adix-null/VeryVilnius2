@@ -36,7 +36,7 @@ class Language extends HTMLElement{
         `;
     }
 }
-customElements.define("language-select", Language);
+customElements.define("languageselect", Language);
 
 //Does not work
 // class Photosphere extends HTMLElement{

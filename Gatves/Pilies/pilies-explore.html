@@ -11,6 +11,18 @@
         <navbar-component-pc></navbar-component-pc>
         <navbar-component-phone></navbar-component-phone>
         <div class="bod2">
+
+            <script defer>
+                const viewer = new PhotoSphereViewer.Viewer({
+                    navbar: [
+                        'zoom',
+                        'fullscreen',
+                    ],
+                    container: document.querySelector('#Pilies-viewer'),
+                    panorama: "/Home-img/Pilies-img/Flat/Pilies-HDRI.jpg",
+                });
+            </script>
+            
             <div class="gallery">
                 <div class="picture-static" style="grid-area: 1 / 1 / 7 / 4; 
                 background-image: url(/Home-img/Pilies-img/Explore/exp-5.png);"></div>
