@@ -4,7 +4,7 @@ class PCNavbar extends HTMLElement{
     }
 
     connectedCallback(){
-    fetch('/Components/PC-nav.html').then(response => response.text()).then(text => this.innerHTML = text);
+    fetch('/Components/pc-nav.html').then(response => response.text()).then(text => this.innerHTML = text);
     }
 }
 customElements.define("navbar-component-pc", PCNavbar);

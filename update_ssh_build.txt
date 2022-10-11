@@ -1,0 +1,4 @@
+ssh root@164.90.163.136
+<password>
+docker-compose pull
+docker-compose up -d
