@@ -28,15 +28,38 @@ class Language extends HTMLElement{
         //Not a perfect solution
         var path = this.getAttribute("src").toString().slice(0, -7); // removes en.html from string
         this.innerHTML = `
-        <div class="language-container">
+        <div class="language-container">            
             <a href="${path.concat("en.html")}"> EN | </a>
             <a href="${path.concat("ru.html")}"> RU |</a>
             <a href="${path.concat("lt.html")}"> LT </a>
         </div>
-        `
+        `;
     }
 }
 customElements.define("language-select", Language);
+
+//Does not work
+// class Photosphere extends HTMLElement{
+//     constructor(){
+//         super();
+//     }
+
+//     connectedCallback(){
+//         this.innerHTML = `
+//         <script defer>
+//             const viewer = new PhotoSphereViewer.Viewer({
+//                 navbar:[
+//                     'zoom',
+//                     'fullscreen',
+//                 ],
+//                 container: document.querySelector('#${this.getAttribute("id")}'),
+//                 panorama: "${this.getAttribute("src")}",
+//             });
+//         </script>
+//         `
+//     }
+// }
+// customElements.define("photosphere-script", Photosphere);
 
 
 function ToggleOptions(Name, element){
