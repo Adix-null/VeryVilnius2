@@ -139,6 +139,7 @@ body {
   position: relative;
   padding: 12px;
   box-sizing: border-box;
+  z-index: 2;
 }
 
 .Dropdown:hover .Dropdown-content.pc {
@@ -553,7 +554,7 @@ navbar-component-phone {
   #email-form {
     display: block;
   }
-  #email-form * {
+  #email-form > * {
     display: block;
     width: 100%;
     height: 45px;
@@ -583,6 +584,9 @@ navbar-component-phone {
   }
   .text-area {
     max-height: 50vh;
+  }
+  .Photosphere-container {
+    width: 100%;
   }
   .Photosphere {
     width: 90%;
