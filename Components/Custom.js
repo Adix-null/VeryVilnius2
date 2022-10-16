@@ -36,7 +36,7 @@ class Language extends HTMLElement{
         `;
     }
 }
-customElements.define("languageselect", Language);
+customElements.define("language-select", Language);
 
 //Does not work
 // class Photosphere extends HTMLElement{
@@ -67,7 +67,26 @@ function ToggleOptions(Name, element){
     const upArr = '\u02C4';//^
     const dwArr = '\u02C5';//v
     //toggle arrow
-    element.innerHTML = element.innerHTML.slice(0,-1).concat(element.innerHTML.slice(-1)===upArr ? dwArr : upArr);
+    element.innerHTML = element.innerHTML.slice(0,-1).concat(element.innerHTML.slice(-1) === upArr ? dwArr : upArr);
     //toggle display
     doc.style.display = (doc.style.display=="none"|| doc.style.display=="") ? "block" : "none";
+}
+
+function ToggleNav(elm)
+{
+    const rgArr = '\u02C3';//>
+    const lfArr = '\u02C2';//<
+    if(elm.textContent === lfArr)
+    {
+        elm.innerHTML = rgArr;
+        elm.style.left = "50px";
+        document.querySelector(".navbar.phone").style.display = "none";
+    }
+    else
+    {
+        elm.innerHTML = lfArr;
+        elm.style.left = "calc(60vw + 20px)";
+        document.querySelector(".navbar.phone").style.display = "block";
+        document.querySelector(".navbar.phone").style.minWidth = "60vw";
+    }
 }
