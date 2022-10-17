@@ -7,18 +7,18 @@ require 'sendemail/src/PHPMailer.php';
 require 'sendemail/src/SMTP.php';
 
 //REQUIRES CHANGING
-$to = 'adixnull0@gmail.com';
+$to = 'info@veryvilnius.com';
 
 if(isset($_POST['submit']))
 {
     $mail = new PHPMailer(true);
 
     $mail->IsSMTP();
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = 'smtp-mail.outlook.com';
     
     $mail->SMTPAuth = true;
     $mail->SMTPSecure = 'ssl';
-    $mail->Port = 465;
+    $mail->Port = 587;
 
     $mail->Username = $to;
     //Should not be a security vulnerability
@@ -55,4 +55,3 @@ else
 {
     echo "submit button is not set";
 }
-?>
