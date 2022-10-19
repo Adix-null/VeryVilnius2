@@ -538,7 +538,7 @@ body {
 }
 .language-container a {
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 /* <=== Phone ===> */
@@ -641,5 +641,8 @@ navbar-component-phone {
   }
   .directions div {
     display: block;
+  }
+  .language-container a {
+    font-size: 3rem;
   }
 }

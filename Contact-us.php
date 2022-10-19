@@ -27,7 +27,8 @@ if (isset($_POST['submit'])) {
     $mail->AddAddress($to); //recipient
 
     $mail->isHTML(false);
-    $mail->Subject = $_POST['subject'];
+    $mail->Subject = $_POST['subject'] . ', ' . $_POST['adress'];
+
     $mail->Body = $_POST['message'];
 
     try {
