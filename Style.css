@@ -341,7 +341,7 @@ body {
   grid-area: 1 / 2 / 3 / 2;
 }
 #submit {
-  background-color: rgb(67, 139, 255);
+  background-color: rgb(37, 110, 228);
   transition: all 0.5s ease;
   color: var(--white);
   grid-area: 3 / 2 / 4 / 2;
@@ -428,6 +428,7 @@ body {
   width: 100%;
   padding: 3px;
   height: 50vh;
+  z-index: 1;
 }
 
 /* <== Content display ==> */
