@@ -629,6 +629,9 @@ navbar-component-phone {
 		display: block;
 		width: 90%;
 	}
+	.inv_cont {
+		color: var(--white);
+	}
 	.picture,
 	.picture-static {
 		/* because there's no way to get the height of a background image*/
