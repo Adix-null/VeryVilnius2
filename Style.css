@@ -399,6 +399,9 @@ body {
 .instruction-text p {
 	padding: 10px;
 }
+.invcont {
+	opacity: 0;
+}
 .instruction-text * {
 	font-size: 1.5rem;
 	font-weight: 300;
@@ -410,7 +413,7 @@ body {
 	background-position: center;
 	background-size: contain;
 	overflow: hidden;
-	min-height: 600px;
+	min-height: 50vh;
 	margin: 5px;
 }
 
@@ -534,6 +537,15 @@ body {
 #v-d-3 {
 	background-image: url(/Home-img/Vilniaus-img/Directions/dir-3.png);
 }
+#v-d-4 {
+	background-image: url(/Home-img/Vilniaus-img/Directions/dir-4.png);
+}
+#v-d-5 {
+	background-image: url(/Home-img/Vilniaus-img/Directions/dir-5.png);
+}
+#v-d-6 {
+	background-image: url(/Home-img/Vilniaus-img/Directions/dir-6.png);
+}
 
 /* <== Language ==> */
 .language-container {
@@ -629,13 +641,13 @@ navbar-component-phone {
 		display: block;
 		width: 90%;
 	}
-	.inv_cont {
-		color: var(--white);
-	}
 	.picture,
 	.picture-static {
 		/* because there's no way to get the height of a background image*/
 		aspect-ratio: 1;
+	}
+	.step .image {
+		min-width: 100vw;
 	}
 	.text-area {
 		max-height: 50vh;
