@@ -60,7 +60,7 @@ customElements.define("language-select", Language);
 //                 panorama: "${this.getAttribute("src")}",
 //             });
 //         </script>
-//         `
+//         
 //     }
 // }
 // customElements.define("photosphere-script", Photosphere);
@@ -71,8 +71,7 @@ function ToggleOptions(Name, element) {
 	const dwArr = "\u02C5"; //v
 	//toggle arrow
 	element.innerHTML = element.innerHTML
-		.slice(0, -1)
-		.concat(element.innerHTML.slice(-1) === upArr ? dwArr : upArr);
+		.slice(0, -1).concat(element.innerHTML.slice(-1) === upArr ? dwArr : upArr);
 	//toggle display
 	doc.style.display =
 		doc.style.display == "none" || doc.style.display == "" ? "block" : "none";
@@ -91,4 +90,36 @@ function ToggleNav(elm) {
 		document.querySelector(".navbar.phone").style.display = "block";
 		document.querySelector(".navbar.phone").style.minWidth = "60vw";
 	}
+}
+
+window.onload = function() {
+	document.querySelectorAll(".animation-hover, .dropdown.phone").forEach(e => {
+		e.style.backgroundColor = "initial";
+	});
+	//console.log("length: " + a.length);
+
+	// document.querySelectorAll('.animation-hover > a').forEach(element => {
+	// 	if((element.href === location.href) || (location.href.includes(element.href.slice(0, -5))))
+	// 		element.parentElement.style.backgroundColor = "var(--blue)";
+	// });
+
+	document.querySelectorAll('.dropdown-content.pc > a').forEach(element => {
+		if (element.href === location.href) {			
+			element.parentElement.parentElement.style.backgroundColor = "var(--blue)";
+			element.style.backgroundColor = "var(--blue)";
+			element.style.color = "var(--white)";
+		}
+	});
+	document.querySelectorAll('.animation-hover > a, .dropdown.phone > a').forEach(element => {
+		if (element.href === location.href) {			
+			element.parentElement.style.backgroundColor = "var(--blue)";
+		}
+	});
+
+	document.querySelectorAll('.dropdown-content.phone > a').forEach(element => {
+		if (element.href === location.href) {			
+			element.parentElement.parentElement.firstElementChild.style.backgroundColor = "var(--blue)";
+			element.style.backgroundColor = "var(--blue)";
+		}
+	});
 }

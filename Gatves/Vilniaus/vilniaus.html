@@ -3,14 +3,37 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" type="text/css" href="/Style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.css" />
         <meta charset="utf-8" content="width=device-width, initial-scale=1.0" />
         <script src="/Components/Custom.js" type="text/javascript" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uevent@2/browser.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.js"></script>
         <title>Very Vilnius | Vilniaus</title>
     </head>
     <body>
         <navbar-component-pc></navbar-component-pc>
         <navbar-component-phone></navbar-component-phone>
         <div class="bod2">
+
+            <div class="Photosphere-container">
+                <div class="Photosphere picture" id="Vilniaus-viewer"></div>
+            </div>
+            
+            <!-- Does not work -->
+            <!-- <photosphere-script id="Vilniaus-viewer" src="/Home-img/Vilniaus-img/Flat/Vilniaus-HDRI.jpg"></photosphere-script>-->
+            
+            <script defer>
+                const viewer = new PhotoSphereViewer.Viewer({
+                    navbar: [
+                        'zoom',
+                        'fullscreen',
+                    ],
+                    container: document.querySelector('#Vilniaus-viewer'),
+                    panorama: "/Home-img/Vilniaus-img/Flat/Vilniaus-HDRI.jpg",
+                });
+            </script>
+
             <div class="gallery">
                 <div class="picture" style="grid-area: 1 / 1 / 5 / 5;
                 background-image: url(/Home-img/Vilniaus-img/Flat/apt-4.png)"></div>
