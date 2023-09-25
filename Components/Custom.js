@@ -92,16 +92,11 @@ function ToggleNav(elm) {
 	}
 }
 
-window.onload = function() {
+
+	function HighlightNav () {
 	document.querySelectorAll(".animation-hover, .dropdown.phone").forEach(e => {
 		e.style.backgroundColor = "initial";
 	});
-	//console.log("length: " + a.length);
-
-	// document.querySelectorAll('.animation-hover > a').forEach(element => {
-	// 	if((element.href === location.href) || (location.href.includes(element.href.slice(0, -5))))
-	// 		element.parentElement.style.backgroundColor = "var(--blue)";
-	// });
 
 	document.querySelectorAll('.dropdown-content.pc > a').forEach(element => {
 		if (element.href === location.href) {			
@@ -123,3 +118,5 @@ window.onload = function() {
 		}
 	});
 }
+
+window.onload = HighlightNav;
