@@ -395,10 +395,11 @@ body {
 	font-weight: 500;
 }
 .instruction-text {
-	grid-area: 2 / 1;
+	grid-column: 1 / 2;
 	align-content: center;
 }
 .instruction-text p {
+	grid-column: 1 / 2;
 	padding: 10px;
 }
 .invcont {
@@ -410,7 +411,7 @@ body {
 	text-transform: none;
 }
 .step .image {
-	grid-area: 2 / 2 / -1 / 2;
+	grid-column: 2 / -1;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -527,6 +528,18 @@ body {
 }
 #s-d-5 {
 	background-image: url(/Home-img/Stikliu-img/Directions/dir-5.png);
+}
+#s-d-6 {
+	background-image: url(/Home-img/Stikliu-img/Directions/dir-6.png);
+}
+#s-d-7 {
+	background-image: url(/Home-img/Stikliu-img/Directions/dir-7.png);
+}
+#s-d-8 {
+	background-image: url(/Home-img/Stikliu-img/Directions/dir-8.png);
+}
+#s-d-9 {
+	background-image: url(/Home-img/Stikliu-img/Directions/dir-9.png);
 }
 
 /* <= Vilniaus => */

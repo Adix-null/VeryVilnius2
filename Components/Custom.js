@@ -33,9 +33,9 @@ class Language extends HTMLElement {
 		var path = this.getAttribute("src").toString().slice(0, -7); // removes en.html from string
 		this.innerHTML = `
         <div class="language-container">            
-            <a href="${path.concat("en.html")}"> EN | </a>
-            <a href="${path.concat("ru.html")}"> RU |</a>
-            <a href="${path.concat("lt.html")}"> LT </a>
+            <a href="${path.concat("en.html")}"> 🇬🇧 | </a>
+            <a href="${path.concat("ru.html")}"> 🇷🇺 |</a>
+            <a href="${path.concat("lt.html")}"> 🇱🇹 </a>
         </div>
         `;
 	}
