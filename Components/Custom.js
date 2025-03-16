@@ -93,30 +93,37 @@ function ToggleNav(elm) {
 }
 
 
-	function HighlightNav () {
+function HighlightNav() {
 	document.querySelectorAll(".animation-hover, .dropdown.phone").forEach(e => {
 		e.style.backgroundColor = "initial";
 	});
 
 	document.querySelectorAll('.dropdown-content.pc > a').forEach(element => {
-		if (element.href === location.href) {			
+		if (element.href === location.href) {
 			element.parentElement.parentElement.style.backgroundColor = "var(--blue)";
 			element.style.backgroundColor = "var(--blue)";
 			element.style.color = "var(--white)";
 		}
 	});
 	document.querySelectorAll('.animation-hover > a, .dropdown.phone > a').forEach(element => {
-		if (element.href === location.href) {			
+		if (element.href === location.href) {
 			element.parentElement.style.backgroundColor = "var(--blue)";
 		}
 	});
 
 	document.querySelectorAll('.dropdown-content.phone > a').forEach(element => {
-		if (element.href === location.href) {			
+		if (element.href === location.href) {
 			element.parentElement.parentElement.firstElementChild.style.backgroundColor = "var(--blue)";
 			element.style.backgroundColor = "var(--blue)";
 		}
 	});
 }
+
+document.querySelectorAll('.expandable').forEach(section => {
+	section.addEventListener('click', () => {
+		const content = section.querySelector('.content');
+		content.classList.toggle('open');
+	});
+});
 
 window.onload = HighlightNav;

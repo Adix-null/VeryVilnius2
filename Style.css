@@ -44,11 +44,7 @@ li {
 
 .animation-hover {
 	background-size: 100% 200%;
-	background-image: linear-gradient(
-		0deg,
-		var(--hoverblue) 50%,
-		rgba(0, 0, 0, 0) 50.001%
-	);
+	background-image: linear-gradient(0deg, var(--hoverblue) 50%, rgba(0, 0, 0, 0) 50.001%);
 	background-position: top;
 	transition: background-position 0.35s ease;
 }
@@ -88,7 +84,7 @@ body {
 	background: #444;
 }
 
-/* <=== Navbar ===> */
+/*#region Navbar*/
 
 .navbar {
 	background-color: var(--gray);
@@ -152,7 +148,9 @@ body {
 	width: 100px;
 }
 
-/* <== Navbar dropdown ==> */
+/*#endregion*/
+
+/*#region Navbar dropdown*/
 .dropdown,
 .navbar-link {
 	color: var(--white);
@@ -206,7 +204,9 @@ body {
 	white-space: nowrap;
 }
 
-/* <=== Home ===> */
+/*#endregion*/
+
+/*#region Home*/
 
 #Title {
 	color: var(--gray);
@@ -270,9 +270,11 @@ body {
 	position: absolute;
 }
 
+/*#endregion*/
+
 /* <=== Extra info ===> */
 
-/* <== Map ==> */
+/*#region Map*/
 #map-container {
 	margin-top: 40px;
 	display: flex;
@@ -300,7 +302,9 @@ body {
 	aspect-ratio: 1 / 1;
 }
 
-/* <== Email ==> */
+/*#endregion*/
+
+/*#region Email*/
 #contact-us {
 	display: flex;
 	flex-direction: row;
@@ -352,7 +356,9 @@ body {
 	background-color: var(--blue);
 }
 
-/* <=== Directions ===> */
+/*#endregion*/
+
+/*#region Directions*/
 .dir-container {
 	margin-top: 0px;
 	display: flex;
@@ -419,10 +425,13 @@ body {
 	min-height: 50vh;
 	margin: 5px;
 }
+/*#endregion*/
 
-/* <=== Miscellaneous ===> */
+/*#region Miscellaneous */
 
-/* <== Photosphere ==> */
+/*#endregion*/
+
+/*#region Photosphere*/
 
 .Photosphere-container {
 	margin-top: 30px;
@@ -437,7 +446,9 @@ body {
 	z-index: 1;
 }
 
-/* <== Content display ==> */
+/*#endregion*/
+
+/*#region Content gallery*/
 .gallery {
 	margin: 20px auto;
 	display: grid;
@@ -491,7 +502,54 @@ body {
 	padding: 1rem;
 }
 
-/* <== Street-img ==> */
+/* <== Expandable ==> */
+
+.info-title {
+	margin: 25px 0;
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.expandable {
+	overflow: hidden;
+	cursor: pointer;
+	user-select: none;
+	margin-bottom: 5px;
+}
+
+.sidenote,
+.expandable * {
+	text-transform: none;
+}
+
+.expandable p {
+	margin-bottom: 5px;
+}
+.expandable p::before {
+	content: "• ";
+}
+
+.header {
+	padding: 10px 15px;
+	font-size: 2em;
+	border-bottom: 2px solid var(--gray);
+}
+
+.content {
+	max-height: 0;
+	overflow: hidden;
+	transition: 0.2s ease, 0.2s ease;
+	padding: 0 30px;
+}
+
+.content.open {
+	max-height: 200px; /* Adjust height depending on your content */
+	padding: 10px 30px;
+}
+
+/*#endregion*/
+
+/*#region Street-img*/
 
 /* <= Pilies => */
 #p-d-1 {
@@ -562,7 +620,9 @@ body {
 	background-image: url(/Home-img/Vilniaus-img/Directions/dir-6.png);
 }
 
-/* <== Language ==> */
+/*#endregion*/
+
+/*#region Language*/
 .language-container {
 	padding: 10px;
 	border: 2px solid black;
@@ -580,6 +640,7 @@ body {
 	font-weight: 600;
 	font-size: 2rem;
 }
+/*#endregion*/
 
 /* <=== Phone ===> */
 navbar-component-phone {
