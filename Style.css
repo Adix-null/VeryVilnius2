@@ -217,7 +217,7 @@ body {
 	text-align: center;
 }
 
-#subtitle {
+.subtitle {
 	color: var(--gray);
 	padding: 100px 50px 100px 0px;
 	font-size: 2.5rem;
@@ -522,6 +522,11 @@ body {
 	text-transform: none;
 }
 
+.footer-ref {
+	margin-top: 100px;
+	text-transform: none;
+}
+
 .expandable p {
 	margin-bottom: 5px;
 }
@@ -533,6 +538,13 @@ body {
 	padding: 10px 15px;
 	font-size: 2em;
 	border-bottom: 2px solid var(--gray);
+	display: flex;
+	flex-direction: row;
+}
+
+.header img {
+	padding-left: 15px;
+	height: 40px;
 }
 
 .content {
@@ -642,7 +654,7 @@ body {
 }
 /*#endregion*/
 
-/* <=== Phone ===> */
+/*#region Phone*/
 navbar-component-phone {
 	display: none;
 }
@@ -750,3 +762,5 @@ navbar-component-phone {
 		font-size: 3rem;
 	}
 }
+
+/*#endregion*/
