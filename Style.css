@@ -61,6 +61,7 @@ body {
 	overflow-x: hidden;
 	min-height: 100vh;
 	glyph-orientation-vertical: auto;
+	font-display: swap;
 }
 .bod2 {
 	width: 100%;
