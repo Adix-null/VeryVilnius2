@@ -1,4 +1,4 @@
-# VeryVilnius2
+# VeryVilnius
 Website of veryvilnius.com
 
-Created and maintained by Adomas B.
+Created and maintained by Adix Null
