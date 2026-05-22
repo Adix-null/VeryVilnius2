@@ -755,7 +755,7 @@ navbar-component-phone {
 
 /* Expandable info blocks */
 .info-title {
-	margin: var(--space-6) 0;
+	padding: var(--space-6) var(--space-2);
 	font-size: var(--font-size-2xl);
 	font-weight: 500;
 	text-transform: uppercase;
@@ -795,6 +795,9 @@ navbar-component-phone {
 .header img {
 	padding-left: var(--space-4);
 	height: 28px;
+}
+[data-theme="dark"] .header img {
+	filter: invert(1);
 }
 
 .content {
