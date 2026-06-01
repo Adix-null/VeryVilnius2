@@ -103,6 +103,7 @@
 html {
 	scroll-behavior: smooth;
 	font-size: 16px;
+	scrollbar-gutter: stable;
 }
 
 body {
@@ -760,6 +761,9 @@ navbar-component-phone {
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+}
+.info-subtitle{
+	padding-left: var(--space-2);
 }
 
 .expandable {
