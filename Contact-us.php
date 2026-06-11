@@ -10,7 +10,18 @@ require 'sendemail/src/SMTP.php';
 //REQUIRES CHANGING
 $to = 'veryvilnius@gmail.com';
 
+$recaptchaSecret = getenv('RECAPTCHA_SECRET_KEY');
+
 if (isset($_POST['submit'])) {
+    $recaptchaResponse = $_POST['g-recaptcha-response'] ?? '';
+    $verify = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . urlencode($recaptchaSecret) . '&response=' . urlencode($recaptchaResponse));
+    $captchaData = json_decode($verify);
+
+    if (!$captchaData->success) {
+        echo "<script>alert('Please complete the reCAPTCHA.'); document.location.href = 'info.html';</script>";
+        exit;
+    }
+
     $mail = new PHPMailer(true);
 
     $mail->IsSMTP();
@@ -21,8 +32,7 @@ if (isset($_POST['submit'])) {
     $mail->Port = 465;
 
     $mail->Username = $to;
-    //Should not be a security vulnerability
-    $mail->Password = 'kjpwemfehjxbxtpb';
+    $mail->Password = getenv('GMAIL_APP_PASSWORD');
     $mail->SetFrom($_POST['adress'],  $_POST['name'] . ', Very Vilnius Website'); //sender
     $mail->AddAddress($to); //recipient
 
