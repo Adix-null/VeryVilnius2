@@ -48,6 +48,15 @@
 			})
 			.then((translations) => {
 				target.innerHTML = replacePlaceholders(target.innerHTML, translations, language);
+
+				// Reattach expandable section handlers after content replacement
+				document.querySelectorAll('#directions-root .expandable').forEach((section) => {
+					const content = section.querySelector('.content');
+					if (!content) return;
+					section.addEventListener('click', () => {
+						content.classList.toggle('open');
+					});
+				});
 			})
 			.catch(() => {
 				target.innerHTML = '<p>Content could not be loaded.</p>';
