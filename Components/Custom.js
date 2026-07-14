@@ -29,12 +29,16 @@ customElements.define("navbar-component-phone", PhoneNavbar);
 
 class Language extends HTMLElement {
 	connectedCallback() {
-		var path = this.getAttribute("src").toString().slice(0, -7);
+		const src = this.getAttribute("src") || window.location.pathname;
+		const sharedFile = src.includes("/Info/") ? "info.html" : "direction.html";
+		const pagePath = src.includes(".html")
+			? src.replace(/\/[^/]+\.html$/, `/${sharedFile}`)
+			: src;
+
 		this.innerHTML = `
         <div class="language-container">
-            <a href="${path.concat("en.html")}"> 🇬🇧 | </a>
-            <a href="${path.concat("ru.html")}"> 🇷🇺 |</a>
-            <a href="${path.concat("lt.html")}"> 🇱🇹 </a>
+            <a href="${pagePath}${pagePath.includes("?") ? "&" : "?"}lang=en"> 🇬🇧 | </a>
+            <a href="${pagePath}${pagePath.includes("?") ? "&" : "?"}lang=lt"> 🇱🇹 </a>
         </div>
         `;
 	}
