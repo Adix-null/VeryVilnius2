@@ -4,7 +4,7 @@
 		if (lang === 'lt' || lang === 'ltu' || lang === 'lit') {
 			return 'lt';
 		}
-		return 'en';
+		return lang;
 	}
 
 	function getLanguage() {

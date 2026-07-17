@@ -29,18 +29,27 @@ customElements.define("navbar-component-phone", PhoneNavbar);
 
 class Language extends HTMLElement {
 	connectedCallback() {
-		const src = this.getAttribute("src") || window.location.pathname;
-		const sharedFile = src.includes("/Info/") ? "info.html" : "direction.html";
-		const pagePath = src.includes(".html")
-			? src.replace(/\/[^/]+\.html$/, `/${sharedFile}`)
-			: src;
+		const src = window.location.pathname;
+		const langs = this.getAttribute("langs").split(" ");
 
-		this.innerHTML = `
-        <div class="language-container">
-            <a href="${pagePath}${pagePath.includes("?") ? "&" : "?"}lang=en"> 🇬🇧 | </a>
-            <a href="${pagePath}${pagePath.includes("?") ? "&" : "?"}lang=lt"> 🇱🇹 </a>
-        </div>
-        `;
+		const emojiDictionary = {
+			"en": "🇬🇧",
+			"lt": "🇱🇹",
+			"ru": "🇷🇺"
+		};
+		
+		const container = document.createElement("div");
+		container.className = "language-container";
+		for(let i = 0; i < langs.length; i++) {
+			const link = document.createElement("a");
+			link.href = `${src}?lang=${langs[i]}`;
+			link.innerHTML = ` ${emojiDictionary[langs[i]]}`;
+			if(i != langs.length - 1) {
+				link.innerHTML += " |";
+			}
+			container.appendChild(link);
+		}
+		this.innerHTML = container.outerHTML;
 	}
 }
 customElements.define("language-select", Language);
