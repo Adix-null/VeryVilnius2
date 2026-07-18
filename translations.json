@@ -25,9 +25,9 @@
 		"ru": "Вход внутрь"
 	},
 	"stikliu_going_inside_p": {
-		"en": "Now you can go to the brown door and unlock it, turn <mark>right</mark> and climb up the stairs.",
-		"lt": "Dabar galite atidaryti rudas duris, pasukti <mark>dešinėn</mark>, ir užlipti laiptais",
-		"ru": "Теперь вы можете открыть коричневую дверь, повернуть <mark>направо</mark> и подняться по лестнице."
+		"en": "Now you can go to the brown door and unlock it with code 2*3909 or a key fob which you will in the apartment. Then turn <mark>right</mark> and climb up the stairs.",
+		"lt": "Dabar galite atidaryti rudas duris su kodu 2*3909 arba magnetiniu raktu, kurį rasite bute. Tada pasukite <mark>dešinėn</mark> ir užlipkite laiptais.",
+		"ru": "Теперь вы можете открыть коричневую дверь c кодом 2*3909 или магнитный брелоком, который вы найдете в квартире. Затем поверните <mark>направо</mark> и подняться по лестнице."
 	},
 	"stikliu_entering_the_apartment_title": {
 		"en": "Entering the apartment",
@@ -58,15 +58,6 @@
 		"en": "The entry is through a gateway. If the gates to the yard are closed, please enter the code <mark>2*3909</mark> on the wall to Your left.",
 		"lt": "Įėjimas pro vartus. Jeigu praėjimo varteliai uždaryti kairėje ant sienos suveskite kodą <mark>2*3909</mark>.",
 		"ru": "Если ворота для пешеходов во двор закрыты- на левой стене наберите код <mark>2*3909</mark>."
-	},
-	"stikliu_exit_title": {
-		"en": "Exit / Departure",
-		"lt": "Išėjimas / Išvykimas",
-		"ru": "Вход в квартиру"
-	},
-	"stikliu_exit_p": {
-		"en": "When leaving, open the pedestrian gate by pressing the \"Exit\" button on the walls near the gate. On your departure, please leave the apartment key and the remote control in the same box. You can also use the intercom during your stay (person located outside presses no. 2 on the gate and stairwell door, and the one in the apartment lets in).",
-		"lt": "Išeinant pėsčiųjų vartelius atidarysite paspaudus \"Exit\" mygtuką ant sienos šalia vartų. Išvykstant raktą nuo buto bei pultelį prašome palikti toje pačioje dėžutėje. Tai pat viešnagės metu galite naudoti domofoną (esantis lauke prie vartelių ir laiptinės durų spaudžia nr.2, o esantis bute įleidžia)."
 	},
 	"stikliu_info_title": {
 		"en": "Information",
@@ -244,46 +235,6 @@
 		"lt": "Dabar galite eiti prie rudos durų ir jas atrakinti. Užėję laiptais pamatysite koridorių, kurio gale bus balta durys su <mark>numeriu 23</mark>, tai yra jūsų apartamentas.",
 		"ru": "Когда войдёте в коридор, поднимитесь по лестнице и апартамент <mark>номер 23</mark> (белая дверь на правой стороне)."
 	},
-	"vilniaus_directions_title": {
-		"en": "Directions",
-		"lt": "Nurodymai",
-		"ru": "Направления"
-	},
-	"vilniaus_location_p_1": {
-		"en": "The address is <mark>Vilniaus g. 25</mark>, suite 32, Vilnius. The entry is through the big grey door.",
-		"lt": "Adresas yra <mark>Vilniaus g. 25</mark>, butas 32, Vilnius. Įėjimas vyksta pro dideles pilkas duris.",
-		"ru": "Адрес апартамента ул. <mark>Вильняус (Vilniaus) 25</mark>, квартира 32. Вход в большие серые двери."
-	},
-	"vilniaus_location_p_2": {
-		"en": "Outside in the right side of the door please enter the code <u><mark>32*3663</mark></u>.",
-		"lt": "Už durų dešinėje pusėje įveskite kodą <u><mark>32*3663</mark></u>.",
-		"ru": "С правой стороны от дверей введите код <u><mark>32*3663</mark></u> с провой стороне от дверей."
-	},
-	"vilniaus_stairs_p": {
-		"en": "Go up the stairs.",
-		"lt": "Užlipkite laiptais.",
-		"ru": "Поднимитесь по лестнице."
-	},
-	"vilniaus_keybox_p": {
-		"en": "On the right you will find a keybox on the wall.",
-		"lt": "Dešinėje ant sienos rasite raktų dėžutę.",
-		"ru": "на правой стороне на стене увидите маленькую коробку."
-	},
-	"vilniaus_code_p": {
-		"en": "Enter the code you have received and <mark>when You have taken the keys from the keybox, close it and dial a random combination, do not leave it unlocked.</mark>",
-		"lt": "Įveskite gautą kodą ir <mark>pasiėmę raktus iš dėžutės, uždarykite ją ir įveskite atsitiktinę skaičių kombinaciją, nepalikite jos atidarytos.</mark>",
-		"ru": "Введите код который получите и взяв ключи прокрутите любые цифры чтобы не остался код."
-	},
-	"vilniaus_apartment_p": {
-		"en": "Enter through the white door and in the corridor on the right side will be apartment <mark>no. 32</mark>. <br/>The key locks apartment and corridor doors, and the black round key is used from the outside instead of the code.",
-		"lt": "Įeikite pro baltas duris, o koridoriaus dešinėje pusėje bus apartamentas <mark>nr. 32</mark>. <br/>Raktas užrakina apartamento ir koridoriaus duris, o juodas apvalus raktas naudojamas iš išorės vietoj kodo.",
-		"ru": "Зайдите через белые двери и в коридорчике на правой стороне будет квартира <mark>но. 32</mark>. <br />Ключ открывает квартиру и двери коридора, а чёрная таблетка открывает внешние серые входные двери так же как и с кодом 32*3663."
-	},
-	"vilniaus_exit_p": {
-		"en": "Upon leaving the building, press the \"EXIT\" button on the left side of the door.",
-		"lt": "Išeinant iš pastato, paspauskite \"EXIT\" mygtuką durų kairėje pusėje.",
-		"ru": "Выходя из здания нажмите кнопку \"EXIT\" на левой стороне от двери."
-	},
 	"pilies_info_title": {
 		"en": "Information",
 		"lt": "Informacija"
@@ -403,6 +354,46 @@
 	"pilies_info_departure_p4": {
 		"en": "Please send message to host, we can better organize cleaning time.",
 		"lt": "Prašome parašyti šeimininkui, kad galėtume geriau suplanuoti valymo laiką."
+	},
+	"vilniaus_directions_title": {
+		"en": "Directions",
+		"lt": "Nurodymai",
+		"ru": "Направления"
+	},
+	"vilniaus_location_p_1": {
+		"en": "The address is <mark>Vilniaus g. 25</mark>, suite 32, Vilnius. The entry is through the big grey door.",
+		"lt": "Adresas yra <mark>Vilniaus g. 25</mark>, butas 32, Vilnius. Įėjimas vyksta pro dideles pilkas duris.",
+		"ru": "Адрес апартамента ул. <mark>Вильняус (Vilniaus) 25</mark>, квартира 32. Вход в большие серые двери."
+	},
+	"vilniaus_location_p_2": {
+		"en": "Outside in the right side of the door please enter the code <u><mark>32*3663</mark></u>.",
+		"lt": "Už durų dešinėje pusėje įveskite kodą <u><mark>32*3663</mark></u>.",
+		"ru": "С правой стороны от дверей введите код <u><mark>32*3663</mark></u> с провой стороне от дверей."
+	},
+	"vilniaus_stairs_p": {
+		"en": "Go up the stairs.",
+		"lt": "Užlipkite laiptais.",
+		"ru": "Поднимитесь по лестнице."
+	},
+	"vilniaus_keybox_p": {
+		"en": "On the right you will find a keybox on the wall.",
+		"lt": "Dešinėje ant sienos rasite raktų dėžutę.",
+		"ru": "на правой стороне на стене увидите маленькую коробку."
+	},
+	"vilniaus_code_p": {
+		"en": "Enter the code you have received and <mark>when You have taken the keys from the keybox, close it and dial a random combination, do not leave it unlocked.</mark>",
+		"lt": "Įveskite gautą kodą ir <mark>pasiėmę raktus iš dėžutės, uždarykite ją ir įveskite atsitiktinę skaičių kombinaciją, nepalikite jos atidarytos.</mark>",
+		"ru": "Введите код который получите и взяв ключи прокрутите любые цифры чтобы не остался код."
+	},
+	"vilniaus_apartment_p": {
+		"en": "Enter through the white door and in the corridor on the right side will be apartment <mark>no. 32</mark>. <br/>The key locks apartment and corridor doors, and the black round key is used from the outside instead of the code.",
+		"lt": "Įeikite pro baltas duris, o koridoriaus dešinėje pusėje bus apartamentas <mark>nr. 32</mark>. <br/>Raktas užrakina apartamento ir koridoriaus duris, o juodas apvalus raktas naudojamas iš išorės vietoj kodo.",
+		"ru": "Зайдите через белые двери и в коридорчике на правой стороне будет квартира <mark>но. 32</mark>. <br />Ключ открывает квартиру и двери коридора, а чёрная таблетка открывает внешние серые входные двери так же как и с кодом 32*3663."
+	},
+	"vilniaus_exit_p": {
+		"en": "Upon leaving the building, press the \"EXIT\" button on the left side of the door.",
+		"lt": "Išeinant iš pastato, paspauskite \"EXIT\" mygtuką durų kairėje pusėje.",
+		"ru": "Выходя из здания нажмите кнопку \"EXIT\" на левой стороне от двери."
 	},
 	"vilniaus_info_title": {
 		"en": "Information",
