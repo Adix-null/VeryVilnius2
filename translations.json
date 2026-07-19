@@ -16,7 +16,7 @@
 	},
 	"stikliu_obtaining_the_keys_p": {
 		"en": "When You go through the gate, You will see a keybox on your right. Open the keybox with a code you received through SMS. <mark>When You have taken the keys from the keybox, close it and dial a random combination, do not leave it unlocked.</mark>",
-		"lt": "Kai įeisite pro vartus, dešinėje pamatysite raktų dėžutę, atidarykite ją su žinute gautu kodu.<mark> Iš dėžutės raktus pasiėmus ją uždarykite ir įveskite atsitiktinę skaičių kombinaciją, nepalikite jos atidarytos.</mark>",
+		"lt": "Kai įeisite pro vartus, dešinėje pamatysite raktų dėžutę, atidarykite ją su žinute gautu kodu. <mark>Iš dėžutės raktus pasiėmus ją uždarykite ir įveskite atsitiktinę skaičių kombinaciją, nepalikite jos atidarytos.</mark>",
 		"ru": "Когда вы войдете в ворота, справа увидите ящик для ключей. Откройте его с помощью кода, полученного в сообщении. После того, как достанете ключи из ящика, закройте его и введите случайную комбинацию цифр. Не оставляйте его открытым."
 	},
 	"stikliu_going_inside_title": {
@@ -36,7 +36,7 @@
 	},
 	"stikliu_entering_the_apartment_p": {
 		"en": "When you have climbed up the stairs, the door with a <mark>number 2</mark> on it will be the apartment.",
-		"lt": "Užlipus laiptais rasite apartamentų duris su <mark>nr. 2.</mark>",
+		"lt": "Užlipus laiptais rasite apartamento duris su <mark>nr. 2.</mark>",
 		"ru": "Когда вы подниметесь по лестнице, дверь с <mark>номером 2</mark> будет вашей квартирой."
 	},
 	"stikliu_directions_title": {
@@ -56,7 +56,7 @@
 	},
 	"stikliu_location_p_2": {
 		"en": "The entry is through a gateway. If the gates to the yard are closed, please enter the code <mark>2*3909</mark> on the wall to Your left.",
-		"lt": "Įėjimas pro vartus. Jeigu praėjimo varteliai uždaryti kairėje ant sienos suveskite kodą <mark>2*3909</mark>.",
+		"lt": "Įėjimas yra pro vartus. Jeigu praėjimo varteliai uždaryti, kairėje ant sienos suveskite kodą <mark>2*3909</mark>.",
 		"ru": "Если ворота для пешеходов во двор закрыты- на левой стене наберите код <mark>2*3909</mark>."
 	},
 	"stikliu_info_title": {
@@ -73,35 +73,35 @@
 	},
 	"stikliu_info_entry_p1": {
 		"en": "You will receive information about the entrance code, apartment key, and parking remote the day before arrival.",
-		"lt": "Informacija apie Įėjimo kodą, buto rakto ir parkavimo pultelio vietą gausite dieną prieš atvykstant."
+		"lt": "Informacija apie įėjimo kodą, buto rakto ir parkavimo pultelio vietą gausite dieną prieš atvykstant."
 	},
 	"stikliu_info_entry_p2": {
 		"en": "The stairwell door closes automatically, but if you have more belongings, you can fix the door open by pushing it past a 90-degree angle to make carrying your things easier.",
-		"lt": "Laiptinės durys užsidaro su pritraukimu, tačiau jeigu turite daugiau daiktų užfiksuokite duris atidarius jas smarkiau 90 laipsnių kampu, kad galėtumėte patogiau susinešti daiktus"
+		"lt": "Laiptinės durys užsidaro su pritraukimu, tačiau jeigu turite daugiau daiktų užfiksuokite duris atidarius jas daugiau nei 90 laipsnių kampu, kad galėtumėte patogiau susinešti daiktus."
 	},
 	"stikliu_info_wifi_title": {
 		"en": "Wifi",
-		"lt": "WiFi"
+		"lt": "Wifi"
 	},
 	"stikliu_info_wifi_p1": {
 		"en": "Network: Externus1",
-		"lt": "Vartotojo vardas: Externus1"
+		"lt": "Tinklas: Externus1"
 	},
 	"stikliu_info_wifi_p2": {
 		"en": "Password: veryvilnius.com",
 		"lt": "Slaptažodis: veryvilnius.com"
 	},
 	"stikliu_info_tv_title": {
-		"en": "TV Control",
+		"en": "TV control",
 		"lt": "TV valdymas"
 	},
 	"stikliu_info_tv_p1": {
 		"en": "Turn on both remotes.",
-		"lt": "Įjungti abu pultelius"
+		"lt": "Įjunkite abu pultelius."
 	},
 	"stikliu_info_tv_p2": {
 		"en": "Select \"TV\" on the top of the screen (with the small remote).",
-		"lt": "Ekrano viršuje pasirinkti TV (su mažu pulteliu)"
+		"lt": "Ekrano viršuje pasirinkite TV (su mažu pulteliu)."
 	},
 	"stikliu_info_tv_p3": {
 		"en": "If you use your own equipment to connect to the TV, please reconnect all cables as they were when you arrived.",
@@ -113,27 +113,27 @@
 	},
 	"stikliu_info_water_p": {
 		"en": "Tap water is drinkable. Hot water is heated by a boiler. If there are multiple guests, please avoid using the shower simultaneously to ensure there’s enough hot water for everyone.",
-		"lt": "Vanduo iš čiaupo yra geriamas. Šiltas vanduo yra ruošiamas boileryje. Esant daugiau svečių prašome nenaudoti dušo visiems vienu metu, kad visiems užtektų vandens."
+		"lt": "Vanduo iš čiaupo yra geriamas. Karštas vanduo yra kaitinamas boileryje. Esant daugiau svečių prašome vengti dušo su karštu vandeniu, kad visiems užtektų karšto vandens vienu metu."
 	},
 	"stikliu_info_heating_title": {
-		"en": "Heating/Cooling",
-		"lt": "Šildymas/šaldymas"
+		"en": "Heating / cooling",
+		"lt": "Šildymas / šaldymas"
 	},
 	"stikliu_info_heating_p1": {
 		"en": "The apartment has central heating, which cannot be adjusted.",
-		"lt": "Bute yra centrinis šildymas, kurio reguliuoti nėra galimybės"
+		"lt": "Bute yra centrinis šildymas, kurio reguliuoti nėra galimybės."
 	},
 	"stikliu_info_heating_p2": {
-		"en": "For additional heating, you can turn on the heated floors in the bathroom and kitchen. The controller is located near the floor. In the living room between the windows, there’s an electric radiator. An additional portable electric radiator can be found in the storage room between the bedrooms. We are unable to install an air conditioner, so during summer, please use the provided fan.",
-		"lt": "Papildomai šildymui galima įsijungti šildomas grindis vonioje bei virtuvėje. Reguliatorius rasite šalia grindų. Svetainėje tarp langų yra elektrinis radiatorius. Sandėliuke tarp miegamųjų rasite papildomą elektrinį nešiojamą radiatorių. Kondicionieriaus neturime galimybės įrengti, todėl vasaros metu naudokite pučiamą ventiliatorių."
+		"en": "For additional heating, you can turn on the heated floors in the bathroom and kitchen. The controller is located near the floor. In the living room between the windows, there’s an electric radiator. An additional portable electric radiator can be found in the storage room. We are unable to install an air conditioner, so during summer, please use the provided fan.",
+		"lt": "Papildomam šildymui galima įsijungti šildomas grindis vonioje bei virtuvėje. Reguliatorių rasite šalia grindų. Svetainėje tarp langų yra elektrinis radiatorius. Sandėliuke rasite papildomą nešiojamą radiatorių. Neturime galimybės įrengti kondicionieriaus, todėl vasaros metu naudokite ventiliatorių."
 	},
 	"stikliu_info_trash_title": {
 		"en": "Trash",
 		"lt": "Šiukšlės"
 	},
 	"stikliu_info_trash_p": {
-		"en": "The trash container is located 200 m away from the apartment, heading toward Vokiečių Street via Antokolskio Street. It is locked. The code is 1569 — press one number at a time, not all at once.",
-		"lt": "Šiukšlių konteinerį rasite už 200 m. nuo apartamento einant Antokolskio g. link Vokiečių g. kieme. Jis yra rakinamas. Kodas 1569, spausti po vieną skaičių, ne visus vienu metu."
+		"en": "The trash container is located 200m away from the apartment, heading toward Vokiečių Street via Antokolskio Street. It is locked. The code is 1569 — press one number at a time, not all at once.",
+		"lt": "Šiukšlių konteinerį rasite už 200m nuo apartamento einant link Antokolskio g. Vokiečių g. kieme. Jis yra rakinamas. Kodas 1569, spauskite po vieną skaičių, ne visus vienu metu."
 	},
 	"stikliu_info_equipment_title": {
 		"en": "Equipment",
@@ -149,11 +149,11 @@
 	},
 	"stikliu_info_departure_p1": {
 		"en": "Leave all keys in the same place where you found them (don’t forget to leave the additional key set in the apartment).",
-		"lt": "Visus raktus palikite ten pat kur radote ( nepamirškite palikti papildomo raktų komplekto bute)"
+		"lt": "Visus raktus palikite ten pat kur radote (nepamirškite palikti papildomo raktų komplekto bute)"
 	},
 	"stikliu_info_departure_p2": {
 		"en": "Turn off all extra electrical devices (electric radiators and heated floors). Take out the trash to the outdoor container. There is a code lock at the courtyard gate. The pedestrian gate remains open during the day and closes automatically in the evening. It can be opened with a code or a magnetic key fob. The main parking gate opens by pressing the letter \"A\" on the remote control. The stairwell door also has a code lock, opened with the same code or magnetic key fob. You will receive information about the entrance code, apartment key location, and parking remote the day before arrival.",
-		"lt": "Išjunkite visus papildomus elektros prietaisus (elektrinius radiatorius bei šildomas grindis). Šiukšles išneškite į konteinerį lauke. Prie vartų į kiemą yra kodinė spyna. Pėsčiųjų varteliai dienos metu būna atidaryti, vakare užsidaro automatiškai. Atidaroma su kodu arba magnetine tablete. Didieji vartai parkavimui atsidaro su pulteliu paspaudus raidę A. Prie laiptinės durų taip pat yra kodinė spyna. Atidaroma su tuo pačiu kodu arba magnetine tablete. Informaciją su įėjimo kodu, kur rasti buto raktą bei pultelį parkingui gausite dieną prieš atvykstant."
+		"lt": "Išjunkite visus papildomus elektros prietaisus (elektrinius radiatorius bei šildomas grindis). Šiukšles išneškite į konteinerį lauke. Prie vartų į kiemą yra kodinė spyna. Pėsčiųjų varteliai dienos metu būna atidaryti, vakare užsidaro automatiškai. Atidaroma su kodu arba magnetiu raktu. Didieji vartai parkavimui atsidaro su pulteliu paspaudus raidę \"A\". Prie laiptinės durų taip pat yra kodinė spyna. Atidaroma su tuo pačiu kodu arba magnetiniu raktu. Informaciją su įėjimo kodu, kur rasti buto raktą bei pultelį parkingui gausite dieną prieš atvykstant."
 	},
 	"pilies_parking_title": {
 		"en": "Directions with parking",
@@ -177,7 +177,7 @@
 	},
 	"pilies_parking_gate_p": {
 		"en": "Near the gate on your left there is a keybox on the wall. When you have dialed the code which you received, a box will open and you will find a remote for the gate.<mark> Push the button \"C\" to open the gate.</mark><br/>When You have taken the keys from the keybox, close it and dial a random combination, do not leave it unlocked. Then, when You have parked your car, go on top of the incline, then turn to Your left and go through an arch.",
-		"lt": "Šalia vartų kairėje yra raktų dėžutė. Įvedus gautą kodą, dėžutė atsidarys ir rasite vartų pultelį.<mark> Spauskite mygtuką \"C\", kad atidarytumėte vartus.</mark><br/>Pasiėmę raktus iš dėžutės, uždarykite ją ir įveskite atsitiktinę skaičių kombinaciją, nepalikite jos atidarytos. Tada, kai pastatysite automobilį, užlipkite į kalną ir pasukite į kairę bei eikite pro arką.",
+		"lt": "Šalia vartų kairėje yra raktų dėžutė. Įvedus gautą kodą, dėžutė atsidarys ir rasite vartų pultelį. <mark>Spauskite mygtuką \"C\", kad atidarytumėte vartus.</mark><br/>Pasiėmę raktus iš dėžutės, uždarykite ją ir įveskite atsitiktinę skaičių kombinaciją, nepalikite jos atidarytos. Tada, kai pastatysite automobilį, užlipkite į kalną ir pasukite į kairę bei eikite pro arką.",
 		"ru": "У ворот увидите кодовую коробку для ключей на левой стороне. Наберите код, присланый вам. Открыв коробку, наидёте пульт управления воротами. <mark>Нажмите кнопку \"C\" для открытия ворот.</mark><br/>Машину можно парковать в любом месте по намеченным линиям.Когда возмёте ключи из кодового ящичка, пожалуйсто закройте ящичек и прокрутите любую комбинацию цифр, неоставьте ящичек незакрытым. Когда Вы припарковали свой автомобиль, поднимитесь на горку, затем поверните налево и пройдите через арку."
 	},
 	"pilies_parking_keys_title": {
@@ -187,7 +187,7 @@
 	},
 	"pilies_parking_keys_p": {
 		"en": "When You walk up to the postboxes, You will see a keybox on your left. Open the keybox with a code you received through SMS. <mark>When You have taken the keys from the keybox, close it and dial a random combination, do not leave it unlocked.</mark> Now you can proceed to the brown door and unlock it.",
-		"lt": "Priėjus prie paštų dėžučių, kairėje pamatysite raktų dėžutę. Atidarykite ją su žinute gautu kodu. <mark>Pasiėmę raktus iš dėžutės, uždarykite ją ir įveskite atsitiktinę skaičių kombinaciją, nepalikite jos atidarytos.</mark> Dabar galite eiti prie rudos durų ir jas atrakinti.",
+		"lt": "Priėjus prie paštų dėžučių, kairėje pamatysite raktų dėžutę. Atidarykite ją su žinute gautu kodu. <mark>Pasiėmę raktus iš dėžutės, uždarykite ją ir įveskite atsitiktinę skaičių kombinaciją, nepalikite jos atidarytos.</mark> Dabar galite eiti prie rudų durų ir jas atrakinti.",
 		"ru": "Ключи найдёте в кодовом ящичке на левой стороне. <mark>Введите код который получите и взяв ключи прокрутите любые цифры чтобы не остался код.</mark> Вход в здание - коричневая дверь."
 	},
 	"pilies_parking_apartment_title": {
@@ -197,7 +197,7 @@
 	},
 	"pilies_parking_apartment_p": {
 		"en": "When you have entered the building and climbed up the stairs, you will see a white door on the left with <mark>number 23</mark> on it, which is the apartment.",
-		"lt": "Įėję į pastatą ir užėję laiptais, kairėje pamatysite baltas duris su <mark>numeriu 23</mark>, tai yra jūsų apartamentas.",
+		"lt": "Įėję į pastatą ir užlipę laiptais, kairėje pamatysite baltas duris su <mark>numeriu 23</mark>, tai yra jūsų apartamentas.",
 		"ru": "Когда войдёте в коридор, поднимитесь по лестнице и апартамент <mark>номер 23</mark> (белая дверь на правой стороне)."
 	},
 	"pilies_directions_title": {
@@ -212,7 +212,7 @@
 	},
 	"pilies_location_p": {
 		"en": "The address is <mark>Pilies str. 38</mark>, Vilnius. The entry is through a gateway.",
-		"lt": "Adresas yra <mark>Pilies g. 38</mark>, Vilnius. Įėjimas į pastatą vyksta pro vartus.",
+		"lt": "Adresas yra <mark>Pilies g. 38</mark>, Vilnius. Įėjimas į pastatą yra pro vartus.",
 		"ru": "Точный адрес - <mark>ул. Pilies, дом 38</mark>, город Vilnius. Пожалуйста войдите во дворик."
 	},
 	"pilies_no_parking_keys_title": {
@@ -222,7 +222,7 @@
 	},
 	"pilies_no_parking_keys_p": {
 		"en": "When You walk up to the postboxes, You will see a keybox on your right. Open the upper keybox with a code you received through SMS. <mark>When You have taken the keys from the keybox, close it and dial a random combination, do not leave it unlocked.</mark>",
-		"lt": "Priėjus prie paštų dėžučių, dešinėje pamatysite raktų dėžutę. Atidarykite viršutinę dėžutę su žinute gautu kodu. <mark>Pasiėmę raktus iš dėžutės, uždarykite ją ir įveskite atsitiktinę skaičių kombinaciją, nepalikite jos atidarytos.</mark>",
+		"lt": "Priėjus prie pašto dėžučių, dešinėje pamatysite raktų dėžutę. Atidarykite viršutinę dėžutę su žinute gautu kodu. <mark>Pasiėmę raktus iš dėžutės, uždarykite ją ir įveskite atsitiktinę skaičių kombinaciją, nepalikite jos atidarytos.</mark>",
 		"ru": "Ключи найдёте в кодовом ящичке на правой стороне. <mark>Введите код который получите и взяв ключи прокрутите любые цифры чтобы не остался код.</mark> Вход в здание - коричневая дверь."
 	},
 	"pilies_no_parking_apartment_title": {
@@ -232,7 +232,7 @@
 	},
 	"pilies_no_parking_apartment_p": {
 		"en": "Now you can proceed to the brown door and unlock it. When you have climbed up the stairs, you will see a walkway, in the end of which there will be a white door with a <mark>number 23</mark> on it, which is the apartment.",
-		"lt": "Dabar galite eiti prie rudos durų ir jas atrakinti. Užėję laiptais pamatysite koridorių, kurio gale bus balta durys su <mark>numeriu 23</mark>, tai yra jūsų apartamentas.",
+		"lt": "Dabar galite eiti prie rudų durų ir jas atrakinti. Užlipę laiptais pamatysite koridorių, kurio gale bus baltos durys su <mark>numeriu 23</mark>, tai yra jūsų apartamentas.",
 		"ru": "Когда войдёте в коридор, поднимитесь по лестнице и апартамент <mark>номер 23</mark> (белая дверь на правой стороне)."
 	},
 	"pilies_info_title": {
@@ -253,11 +253,11 @@
 	},
 	"pilies_info_entry_p2": {
 		"en": "Please note: the apartment is in the attic of an Old Town building, so the staircase and apartment have spiral stairs.",
-		"lt": "Atkreipkite dėmesį: apartamentas yra seno miesto pastato palėpėje, todėl laiptai ir apartamentas turi spiralinius laiptus."
+		"lt": "Atkreipkite dėmesį: apartamentas yra senamiestyje esančio pastato palėpėje, todėl laiptai ir apartamentas turi spiralinius laiptus."
 	},
 	"pilies_info_wifi_title": {
 		"en": "Wifi",
-		"lt": "Wi-Fi"
+		"lt": "Wifi"
 	},
 	"pilies_info_wifi_p1": {
 		"en": "Network: EXTERNUS",
@@ -281,7 +281,7 @@
 	},
 	"pilies_info_tv_p3": {
 		"en": "If you use your own device with the TV, please reconnect all cables as they were when you arrived.",
-		"lt": "Jei naudojate savo įrenginį su televizoriumi, prašome prijungti visus laidus kaip jie buvo atvykus."
+		"lt": "Jeigu naudojate savo įrangą jungiantis prie TV, prašome po to sujungti atgal visus laidus taip, kaip radote atvykus."
 	},
 	"pilies_info_water_title": {
 		"en": "Water",
@@ -289,23 +289,23 @@
 	},
 	"pilies_info_water_p": {
 		"en": "Tap water is drinkable.",
-		"lt": "Vandentiekio vanduo yra geriamas."
+		"lt": "Vanduo iš čiaupo yra geriamas."
 	},
 	"pilies_info_heating_title": {
 		"en": "Heating/Cooling",
 		"lt": "Šildymas / vėsinimas"
 	},
 	"pilies_info_heating_p1": {
-		"en": "The apartment has autonomous gas underfloor heating. You can adjust the heat using the dial on the wall between the railing and the bathroom, or in the bedroom. Please do not adjust the control screen, as it’s set to prioritize bathroom floor heating. Increasing room temperature will reduce bathroom floor warmth. Contact the host if needed.",
-		"lt": "Apartamente yra autonominis dujinis grindų šildymas. Šilumą galite reguliuoti rankenėle ant sienos tarp turėklų ir vonios kambario arba miegamajame. Nedarykite pakeitimų valdymo ekranui, nes jis nustatytas prioriteto tvarka vonios grindų šildymui. Kambario temperatūros didinimas sumažins vonios grindų šilumą. Reikalingais atvejais susisiekite su šeimininku."
+		"en": "The apartment has gas underfloor heating. You can adjust the heat using the dial on the wall between the railing and the bathroom, or in the bedroom. Please do not adjust the control screen, as it’s set to prioritize bathroom floor heating. Increasing room temperature will reduce bathroom floor warmth. Contact the host if needed.",
+		"lt": "Apartamente yra dujinis grindų šildymas. Šilumą galite reguliuoti rankenėle ant sienos tarp turėklų ir vonios kambario arba miegamajame. Nekeiskite parametrų valdymo ekrane, nes jis nustatytas prioritizuoti vonios grindų šildymą. Kambario temperatūros didinimas sumažins vonios grindų šilumą. Jei reikia, susisiekite su šeimininkais."
 	},
 	"pilies_info_heating_p2": {
 		"en": "The fireplace can be used; for better airflow, open the window before lighting it.",
-		"lt": "Krosnelė gali būti naudojama; geresniam oro srautui prieš uždegdami atverkite langą."
+		"lt": "Židinys gali būti naudojamas; geresniam oro srautui prieš jį uždegant atverkite langą."
 	},
 	"pilies_info_heating_p3": {
-		"en": "Air conditioners are in the living and bedroom areas. In summer, set it to cooling (snowflake symbol); in winter, set it to heating (sun symbol) if needed.",
-		"lt": "Kondicionieriai yra svetainėje ir miegamajame. Vasarą nustatykite vėsinimą (sniego simbolis), žiemą – šildymą (saulės simbolis), jei reikia."
+		"en": "Air conditioners are in the living and bedroom areas. In summer, set it to cooling (snowflake symbol), in winter, set it to heating (sun symbol) if needed.",
+		"lt": "Kondicionieriai yra svetainėje ir miegamajame. Vasarą nustatykite vėsinimą (snaigės simbolis), žiemą – šildymą (saulės simbolis), jei reikia."
 	},
 	"pilies_info_smoking_title": {
 		"en": "Smoking",
@@ -313,7 +313,7 @@
 	},
 	"pilies_info_smoking_p": {
 		"en": "Smoking, including electronic cigarettes, is strictly prohibited inside. Fines apply. Use the balcony in the staircase (white door near the semi-circular window).",
-		"lt": "Rūkymas, įskaitant elektronines cigaretes, vidaus patalpose griežtai draudžiamas. Taikomos baudos. Naudokite balkoną laiptinėje (balta durys šalia pusapvalio lango)."
+		"lt": "Rūkymas, įskaitant elektronines cigaretes, vidaus patalpose griežtai draudžiamas. Taikomos baudos. Naudokite balkoną laiptinėje (baltos durys šalia pusapvalio lango)."
 	},
 	"pilies_info_trash_title": {
 		"en": "Trash",
@@ -333,7 +333,7 @@
 	},
 	"pilies_info_equipment_p2": {
 		"en": "There is also a USB-A wall outlet near the dining table.",
-		"lt": "Be to, prie valgomojo stalo yra USB-A sieninis lizdas."
+		"lt": "Prie valgomojo stalo taip pat yra USB-A kištukinis lizdas."
 	},
 	"pilies_info_departure_title": {
 		"en": "Departure",
@@ -341,19 +341,19 @@
 	},
 	"pilies_info_departure_p1": {
 		"en": "Before leaving, turn off any additional appliances (bathroom towel heater, air conditioner).",
-		"lt": "Išeinant išjunkite visus papildomus prietaisus (vonios rankšluosčių šildytuvą, oro kondicionierių)."
+		"lt": "Prieš išeinant išjunkite visus papildomus prietaisus (vonios rankšluosčių šildytuvą, oro kondicionierių)."
 	},
 	"pilies_info_departure_p2": {
-		"en": "Check-out by 11:00 AM. Lock the apartment and leave the keys in the same box.",
-		"lt": "Išsiregistruokite iki 11:00. Užrakinkite apartamentą ir palikite raktus toje pačioje dėžutėje."
+		"en": "Check-out by 11:00 AM. Lock the doors and leave the keys in the same box.",
+		"lt": "Išsiregistruokite iki 11:00. Užrakinkite duris ir palikite raktus toje pačioje dėžutėje."
 	},
 	"pilies_info_departure_p3": {
 		"en": "Take out the trash to the outdoor container.",
-		"lt": "Išmeskite šiukšles į lauko konteinerį."
+		"lt": "Išmeskite šiukšles į konteinerį lauke."
 	},
 	"pilies_info_departure_p4": {
 		"en": "Please send message to host, we can better organize cleaning time.",
-		"lt": "Prašome parašyti šeimininkui, kad galėtume geriau suplanuoti valymo laiką."
+		"lt": "Prašome parašyti žinutę šeimininkui, kad galėtume geriau suplanuoti valymo laiką."
 	},
 	"vilniaus_directions_title": {
 		"en": "Directions",
@@ -362,12 +362,12 @@
 	},
 	"vilniaus_location_p_1": {
 		"en": "The address is <mark>Vilniaus g. 25</mark>, suite 32, Vilnius. The entry is through the big grey door.",
-		"lt": "Adresas yra <mark>Vilniaus g. 25</mark>, butas 32, Vilnius. Įėjimas vyksta pro dideles pilkas duris.",
+		"lt": "Adresas yra <mark>Vilniaus g. 25</mark>, butas 32, Vilnius. Įėjimas yra pro dideles pilkas duris.",
 		"ru": "Адрес апартамента ул. <mark>Вильняус (Vilniaus) 25</mark>, квартира 32. Вход в большие серые двери."
 	},
 	"vilniaus_location_p_2": {
 		"en": "Outside in the right side of the door please enter the code <u><mark>32*3663</mark></u>.",
-		"lt": "Už durų dešinėje pusėje įveskite kodą <u><mark>32*3663</mark></u>.",
+		"lt": "Lauke dešinėje durų pusėje įveskite kodą <u><mark>32*3663</mark></u>.",
 		"ru": "С правой стороны от дверей введите код <u><mark>32*3663</mark></u> с провой стороне от дверей."
 	},
 	"vilniaus_stairs_p": {
@@ -387,7 +387,7 @@
 	},
 	"vilniaus_apartment_p": {
 		"en": "Enter through the white door and in the corridor on the right side will be apartment <mark>no. 32</mark>. <br/>The key locks apartment and corridor doors, and the black round key is used from the outside instead of the code.",
-		"lt": "Įeikite pro baltas duris, o koridoriaus dešinėje pusėje bus apartamentas <mark>nr. 32</mark>. <br/>Raktas užrakina apartamento ir koridoriaus duris, o juodas apvalus raktas naudojamas iš išorės vietoj kodo.",
+		"lt": "Įeikite pro baltas duris, koridoriaus dešinėje pusėje bus apartamentas <mark>nr. 32</mark>. <br/>Raktas užrakina apartamento ir koridoriaus duris, o juodas apvalus raktas naudojamas iš išorės vietoj kodo.",
 		"ru": "Зайдите через белые двери и в коридорчике на правой стороне будет квартира <mark>но. 32</mark>. <br />Ключ открывает квартиру и двери коридора, а чёрная таблетка открывает внешние серые входные двери так же как и с кодом 32*3663."
 	},
 	"vilniaus_exit_p": {
@@ -417,7 +417,7 @@
 	},
 	"vilniaus_info_wifi_title": {
 		"en": "Wifi",
-		"lt": "Wi-Fi"
+		"lt": "Wifi"
 	},
 	"vilniaus_info_wifi_p1": {
 		"en": "Network: EXTERNUS",
@@ -449,11 +449,11 @@
 	},
 	"vilniaus_info_water_p": {
 		"en": "Tap water is drinkable.",
-		"lt": "Vandentiekio vanduo yra geriamas."
+		"lt": "Vanduo iš čiaupo yra geriamas."
 	},
 	"vilniaus_info_heating_title": {
-		"en": "Heating/Cooling",
-		"lt": "Šildymas / vėsinimas"
+		"en": "Heating / Cooling",
+		"lt": "Šildymas / Vėsinimas"
 	},
 	"vilniaus_info_heating_p1": {
 		"en": "The apartment has central heating; radiators under the windows can be adjusted.",
@@ -461,7 +461,7 @@
 	},
 	"vilniaus_info_heating_p2": {
 		"en": "No air conditioning is available. Use the fan found in the closet by the bed. If using it with water, the air will be cooler and cleaner than just using the fan alone. Don’t forget to check the water tank.",
-		"lt": "Oro kondicionierius nėra. Naudokite ventiliatorių, esantį spintoje šalia lovos. Jei naudojate jį su vandeniu, oras bus vėsesnis ir švaresnis nei naudojant tik ventiliatorių. Nepamirškite patikrinti vandens talpos."
+		"lt": "Oro kondicionierius nėra. Naudokite ventiliatorių, esantį spintoje šalia lovos. Jei naudojate jį su vandeniu, oras bus vėsesnis ir švaresnis nei naudojant tik ventiliatorių be vandens. Nepamirškite patikrinti talpos vandeniui."
 	},
 	"vilniaus_info_noise_title": {
 		"en": "Noise cancelling",
@@ -469,7 +469,7 @@
 	},
 	"vilniaus_info_noise_p": {
 		"en": "The apartment is located in the city center near bars and restaurants, so some noise is expected, especially on weekends. If you are sensitive to noise, we recommend using earplugs, which can be found in the bedside table drawer.",
-		"lt": "Apartamentas yra miesto centre netoli barų ir restoranų, todėl tam tikras triukšmas yra laukiamas, ypač savaitgaliais. Jei esate jautrus triukšmui, rekomenduojame naudoti ausų kamštelius, kurie yra šalia lovos stalo stalčiuje."
+		"lt": "Apartamentas yra miesto centre netoli barų ir restoranų, todėl tam tikras triukšmo lygis yra tikėtinas, ypač savaitgaliais. Jei esate jautrūs triukšmui, rekomenduojame naudoti ausų kamštukus, kurie yra šalia lovos stalo stalčiuje."
 	},
 	"vilniaus_info_safe_title": {
 		"en": "Safe",
@@ -477,7 +477,7 @@
 	},
 	"vilniaus_info_safe_p1": {
 		"en": "You can use the safe. Please contact the hosts for the code.",
-		"lt": "Galite naudoti seifą. Kodo prašome susisiekti su šeimininkais."
+		"lt": "Galite naudoti seifą. Dėk kodo susisiekite su šeimininkais."
 	},
 	"vilniaus_info_safe_li1": {
 		"en": "To create a new code, press the CLEAR button twice and you will see the message NEW. You can now enter a new code (between 3 and 9 digits).",
@@ -485,19 +485,19 @@
 	},
 	"vilniaus_info_safe_li2": {
 		"en": "When you have entered your new code, press the LOCK button and you will see the message AGAIN. Re-enter the code and press LOCK once more. You will then see the message DONE. Your new code is now active.",
-		"lt": "Įvedę naują kodą, paspauskite LOCK mygtuką ir pamatysite pranešimą AGAIN. Iš naujo įveskite kodą ir dar kartą paspauskite LOCK. Tada pamatysite pranešimą DONE. Jūsų naujas kodas dabar aktyvus."
+		"lt": "Įvedę naują kodą, paspauskite LOCK mygtuką ir pamatysite pranešimą AGAIN. Iš naujo įveskite kodą ir dar kartą paspauskite LOCK. Tada pamatysite pranešimą DONE. Jūsų naujas kodas dabar aktyvuotas."
 	},
 	"vilniaus_info_safe_li3": {
-		"en": "To lock the safe, close the door and press the LOCK button. (MAKE SURE THAT YOU REMEMBER YOUR CODE BEFORE LOCKING THE SAFE!)",
-		"lt": "Norėdami užrakinti seifą, uždarykite duris ir paspauskite LOCK mygtuką. (ĮSITIKINKITE, KAD PRISIMINTUMĖTE SAVO KODĄ PRIEŠ UŽRAKDAMI SEIFĄ!)"
+		"en": "To lock the safe, close the door and press the LOCK button. <mark>(MAKE SURE THAT YOU REMEMBER YOUR CODE BEFORE LOCKING THE SAFE!)</mark>",
+		"lt": "Norėdami užrakinti seifą, uždarykite duris ir paspauskite LOCK mygtuką. <mark>(ĮSITIKINKITE, KAD PRISIMENATE SAVO KODĄ PRIEŠ UŽRAKINANT SEIFĄ!)</mark>"
 	},
 	"vilniaus_info_safe_li4": {
-		"en": "To open the safe, simply enter your code and the door will open. In case You forgot safe code – please call owner. ATTENTION: PLEASE DO NOT FORGET YOUR BELONGINGS IN THE SAFE.",
+		"en": "To open the safe, simply enter your code and the door will open. In case You forgot safe code – please call the owner. ATTENTION: PLEASE DO NOT FORGET YOUR BELONGINGS IN THE SAFE.",
 		"lt": "Norėdami atidaryti seifą, tiesiog įveskite kodą ir durys atsidarys. Jei pamiršote seifo kodą – skambinkite savininkui. DĖMESIO: NEPAMIRŠKITE SAVO DAIKTŲ SEIFE."
 	},
 	"vilniaus_info_safe_disclaimer": {
-		"en": "Disclaimer: Safe box provided to use for You convenience as You decide. We as owners can not accept any responsibility for Your belongings",
-		"lt": "Atsisakymas: seifo dėžutė suteikiama Jūsų patogumui. Mes kaip savininkai neimame jokios atsakomybės už Jūsų daiktus."
+		"en": "Disclaimer: safe box provided to use for You convenience as You decide. We as owners can not accept any responsibility for Your belongings",
+		"lt": "Įspėjimas: seifo dėžutė suteikiama Jūsų patogumui. Mes, kaip savininkai, neprisiimame jokios atsakomybės už Jūsų daiktus."
 	},
 	"vilniaus_info_trash_title": {
 		"en": "Trash",
@@ -505,7 +505,7 @@
 	},
 	"vilniaus_info_trash_p": {
 		"en": "The locked container is in the courtyard. Exit the staircase, turn right, enter the first archway, and the containers will be immediately on the left behind a lock. The key is on the shelf near the apartment door.",
-		"lt": "Užrakintas konteineris yra kieme. Išėję laiptais pasukite dešinėn, įeikite pro pirmą arką ir konteineriai bus iškart kairėje už užrakto. Raktas yra ant lentynos šalia apartamentu durų."
+		"lt": "Užrakintas konteineris yra kieme. Išėję laiptais pasukite dešinėn, įeikite pro pirmą arką ir konteineriai bus iškart kairėje už spynos. Raktas yra ant lentynos šalia apartamentu durų."
 	},
 	"vilniaus_info_equipment_title": {
 		"en": "Equipment",
@@ -521,7 +521,7 @@
 	},
 	"vilniaus_info_keys_p": {
 		"en": "The apartment key also opens the white door in the corridor, in case someone locks it.",
-		"lt": "Apartamento raktas taip pat atidaro baltas duris koridoriuje, jei kas nors jas užrakina."
+		"lt": "Apartamento raktas taip pat atidaro baltas duris koridoriuje, jei kas nors jas užrakintų."
 	},
 	"vilniaus_info_departure_title": {
 		"en": "Departure",
@@ -529,18 +529,18 @@
 	},
 	"vilniaus_info_departure_p1": {
 		"en": "Before leaving, turn off all additional appliances (like the bathroom towel heater).",
-		"lt": "Išeinant išjunkite visus papildomus prietaisus (pvz., vonios rankšluosčių šildytuvą)."
+		"lt": "Išeinant išjunkite visus papildomus prietaisus (kaip vonios rankšluosčių šildytuvą)."
 	},
 	"vilniaus_info_departure_p2": {
 		"en": "Check-out by 12:00 PM. Lock the apartment and leave the keys in the same box, spinning any numbers to lock it.",
-		"lt": "Išsiregistruokite iki 12:00. Užrakinkite apartamentą ir palikite raktus tame pačiame dėžutėje, pasukdami bet kuriuos skaičius, kad ją užrakintumėte."
+		"lt": "Išsiregistruokite iki 12:00. Užrakinkite apartamentą ir palikite raktus toje pačioje dėžutėje, išsukdami bet kuriuos skaičius, kad ją užrakintumėte."
 	},
 	"vilniaus_info_departure_p3": {
 		"en": "Take out the trash to the outdoor container.",
 		"lt": "Išmeskite šiukšles į lauko konteinerį."
 	},
 	"vilniaus_info_departure_p4": {
-		"en": "Please send message to host, we can better organize cleaning time.",
-		"lt": "Prašome parašyti šeimininkui, kad galėtume geriau suplanuoti valymo laiką."
+		"en": "Please send message to host, so we can better organize the cleaning time.",
+		"lt": "Prašome parašyti žinutę šeimininkui, kad galėtume geriau suplanuoti valymo laiką."
 	}
 }
