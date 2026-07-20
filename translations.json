@@ -361,9 +361,9 @@
 		"ru": "Направления"
 	},
 	"vilniaus_location_p_1": {
-		"en": "The address is <mark>Vilniaus g. 25</mark>, suite 32, Vilnius. The entry is through the big grey door.",
-		"lt": "Adresas yra <mark>Vilniaus g. 25</mark>, butas 32, Vilnius. Įėjimas yra pro dideles pilkas duris.",
-		"ru": "Адрес апартамента ул. <mark>Вильняус (Vilniaus) 25</mark>, квартира 32. Вход в большие серые двери."
+		"en": "The address is <mark>Vilniaus g. 25</mark>, suite 32, Vilnius. The entry is through the big grey door in the main street.",
+		"lt": "Adresas yra <mark>Vilniaus g. 25</mark>, butas 32, Vilnius. Įėjimas yra pro dideles pilkas duris pagrindinėje gatvėje.",
+		"ru": "Адрес апартамента ул. <mark>Вильняус (Vilniaus) 25</mark>, квартира 32. Вход в большие серые двери в главной улице."
 	},
 	"vilniaus_location_p_2": {
 		"en": "Outside in the right side of the door please enter the code <u><mark>32*3663</mark></u>.",
@@ -412,8 +412,8 @@
 		"lt": "Informaciją apie raktų palikimo vietą gausite likus dienai iki atvykimo."
 	},
 	"vilniaus_info_entry_p2": {
-		"en": "Building doors are open during working hours on weekdays. In the evening and on weekends, they close automatically. To exit, press the EXIT button on the wall to the left of the door.",
-		"lt": "Pastato durys darbo dienomis darbo valandomis yra atviros. Vakare ir savaitgaliais jos automatiškai užsidaro. Išeinant paspauskite EXIT mygtuką ant sienos kairėje nuo durų."
+		"en": "Building doors close automatically. To exit, press the EXIT button on the wall to the left of the door.",
+		"lt": "Pastato durys automatiškai užsidaro. Išeinant paspauskite EXIT mygtuką ant sienos kairėje nuo durų."
 	},
 	"vilniaus_info_wifi_title": {
 		"en": "Wifi",
