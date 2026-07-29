@@ -33,9 +33,9 @@ class Language extends HTMLElement {
 		const langs = this.getAttribute("langs").split(" ");
 
 		const emojiDictionary = {
-			"en": "🇬🇧",
-			"lt": "🇱🇹",
-			"ru": "🇷🇺"
+			"en": "EN",
+			"lt": "LT",
+			"ru": "RU"
 		};
 		
 		const container = document.createElement("div");
