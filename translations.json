@@ -512,8 +512,8 @@
 		"lt": "Įranga"
 	},
 	"vilniaus_info_equipment_p": {
-		"en": "The apartment includes: electric stove, oven, microwave, dishwasher, washing machine, electric kettle, Nespresso capsule coffee machine.",
-		"lt": "Apartamente yra: elektrinė viryklė, orkaitė, mikrobangų krosnelė, indaplovė, skalbyklė, elektrinis virdulys, Nespresso kapsulių kavos aparatas."
+		"en": "The apartment includes: electric stove, oven, microwave, dishwasher, washing machine, electric kettle, Nespresso capsule coffee machine. To turn on the coffee machine press down the button pictured below.",
+		"lt": "Apartamente yra: elektrinė viryklė, orkaitė, mikrobangų krosnelė, indaplovė, skalbyklė, elektrinis virdulys, Nespresso kapsulių kavos aparatas. Įjungti kavos aparatą žemyn paspauskite mygtuką kaip parodyta nuotraukoje."
 	},
 	"vilniaus_info_keys_title": {
 		"en": "Keys",
