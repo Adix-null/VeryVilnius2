@@ -1,7 +1,3 @@
-/* =====================================================================
-   DESIGN TOKENS
-   ===================================================================== */
-
 @font-face {
 	font-family: "Avenida-W01";
 	src: url(/Fonts/53f05821-c783-4593-bf20-c3d770f32863.woff) format("woff");
@@ -842,6 +838,7 @@ navbar-component-phone {
 #s-d-9 { background-image: url(/Home-img/Stikliu-img/Directions/dir-9.png); }
 #s-d-10 { background-image: url(/Home-img/Stikliu-img/Directions/dir-10.png); }
 #s-d-11 { background-image: url(/Home-img/Stikliu-img/Directions/dir-11.png); }
+#s-d-12 { background-image: url(/Home-img/Stikliu-img/Directions/dir-12.png); }
 
 /* Vilniaus */
 #v-d-1 { background-image: url(/Home-img/Vilniaus-img/Directions/dir-1.png); }
