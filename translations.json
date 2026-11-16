@@ -70,19 +70,23 @@
 	},
 	"stikliu_info_subtitle": {
 		"en": "Stikliu street apartment",
-		"lt": "Stkilių gatvės apartamentas"
+		"lt": "Stiklių gatvės apartamentas"
 	},
 	"stikliu_info_entry_title": {
 		"en": "Enterance",
 		"lt": "Įėjimas"
 	},
 	"stikliu_info_entry_p1": {
-		"en": "You will receive information about the entrance code, apartment key, and parking remote the day before arrival.",
-		"lt": "Informacija apie įėjimo kodą, buto rakto ir parkavimo pultelio vietą gausite dieną prieš atvykstant."
+		"en": "You will receive information about the entrance code and parking remote the day before arrival.",
+		"lt": "Įėjimo kodas prie vartų ir prie laiptinės yra 2*3909"
 	},
 	"stikliu_info_entry_p2": {
-		"en": "The stairwell door closes automatically, but if you have more belongings, you can fix the door open by pushing it past a 90-degree angle to make carrying your things easier.",
-		"lt": "Laiptinės durys užsidaro su pritraukimu, tačiau jeigu turite daugiau daiktų užfiksuokite duris atidarius jas daugiau nei 90 laipsnių kampu, kad galėtumėte patogiau susinešti daiktus."
+		"en": "The code for the apartment door will be sent to you by email alongside arrival instructions.",
+		"lt": "Kodą nuo apartamento durų rasite el. pašte su atvykimo instrukcija."
+	},	
+	"stikliu_info_entry_p3": {
+		"en": "",
+		"lt": "Bute rasite papildomus magnetinį ir išmaųjį raktą, kuriuos galima naudoti vietoj kodo. Magnetinis raktas veikia prie laiptinės, išmanusis raktas nuo buto durų."
 	},
 	"stikliu_info_wifi_title": {
 		"en": "Wifi",
@@ -116,9 +120,17 @@
 		"en": "Water",
 		"lt": "Vanduo"
 	},
-	"stikliu_info_water_p": {
-		"en": "Tap water is drinkable. Hot water is heated by a boiler. If there are multiple guests, please avoid using the shower simultaneously to ensure there’s enough hot water for everyone.",
-		"lt": "Vanduo iš čiaupo yra geriamas. Karštas vanduo yra kaitinamas boileryje. Esant daugiau svečių prašome vengti dušo su karštu vandeniu, kad visiems užtektų karšto vandens vienu metu."
+	"stikliu_info_water_p1": {
+		"en": "Tap water is drinkable.",
+		"lt": "Vanduo iš čiaupo yra geriamas."
+	},
+	"stikliu_info_water_p2": {
+		"en": "Hot water is heated by a boiler.",
+		"lt": "Karštas vanduo yra kaitinamas boileryje."
+	},
+	"stikliu_info_water_p3": {
+		"en": "If there are multiple guests, please make pauses between showers to ensure there’s enough hot water for everyone.",
+		"lt": "Esant daugiau svečių prašome naudotis dušu su pertrauka, kad vanduo spėtų prišilti kitiems svečiams."
 	},
 	"stikliu_info_heating_title": {
 		"en": "Heating / cooling",
@@ -129,36 +141,64 @@
 		"lt": "Bute yra centrinis šildymas, kurio reguliuoti nėra galimybės."
 	},
 	"stikliu_info_heating_p2": {
-		"en": "For additional heating, you can turn on the heated floors in the bathroom and kitchen. The controller is located near the floor. In the living room between the windows, there’s an electric radiator. An additional portable electric radiator can be found in the storage room. We are unable to install an air conditioner, so during summer, please use the provided fan.",
-		"lt": "Papildomam šildymui galima įsijungti šildomas grindis vonioje bei virtuvėje. Reguliatorių rasite šalia grindų. Svetainėje tarp langų yra elektrinis radiatorius. Sandėliuke rasite papildomą nešiojamą radiatorių. Neturime galimybės įrengti kondicionieriaus, todėl vasaros metu naudokite ventiliatorių."
+		"en": "For additional heating, you can turn on the heated floors in the bathroom and kitchen. The controller is located near the floor.",
+		"lt": "Papildomam šildymui galima įsijungti šildomas grindis vonioje bei virtuvėje. Reguliatorių rasite šalia grindų."
+	},
+	"stikliu_info_heating_p3": {
+		"en": "In the living room between the windows, there’s an electric radiator.",
+		"lt": "Svetainėje tarp langų yra elektrinis radiatorius."
+	},
+	"stikliu_info_heating_p4": {
+		"en": "An additional portable electric radiator can be found in the storage room. We are unable to install an air conditioner, so during summer, please use the provided fan.",
+		"lt": "Sandėliuke rasite papildomą nešiojamą radiatorių. Neturime galimybės įrengti kondicionieriaus, todėl vasaros metu naudokite ventiliatorių."
+	},
+	"stikliu_info_heating_p5": {
+		"en": "In the bedroom use the blinds to reduce heat during summer, and in winter, leaving the curtains open will allow the room to get warm better.",
+		"lt": "Miegamajame naudokite žaliuzes, vasaros metu tai sumažins karštį, o žiemą neužtraukiant naktinių užuolaidų geriau šildysis patalpa."
 	},
 	"stikliu_info_trash_title": {
 		"en": "Trash",
 		"lt": "Šiukšlės"
 	},
-	"stikliu_info_trash_p": {
-		"en": "The trash container is located 200m away from the apartment, heading toward Vokiečių Street via Antokolskio Street. It is locked. The code is 1569 — press one number at a time, not all at once.",
-		"lt": "Šiukšlių konteinerį rasite už 200m nuo apartamento einant link Antokolskio g. Vokiečių g. kieme. Jis yra rakinamas. Kodas 1569, spauskite po vieną skaičių, ne visus vienu metu."
+	"stikliu_info_trash_p1": {
+		"en": "The trash container is located 200m away from the apartment in Antokolskio Street. It is locked.",
+		"lt": "Šiukšlius konteinerius rasite kieme už 200m nuo apartamento Antokolskio g. Jis yra rakinamas. "
+	},
+	"stikliu_info_trash_p2": {
+		"en": "The code is <b>1569</b> — press one number at a time, not all at once.",
+		"lt": "Kodas <b>1569</b>, spauskite po vieną skaičių, ne visus vienu metu."
 	},
 	"stikliu_info_equipment_title": {
 		"en": "Equipment",
 		"lt": "Įranga"
 	},
-	"stikliu_info_equipment_p": {
-		"en": "The apartment includes a washing machine, dishwasher, gas stove (operated by push-button ignition without matches), oven, microwave, and a Dolce Gusto coffee capsule machine. In the main bedroom, for better sleep, you can use the blackout blinds on the windows. During winter, you may use the blinds alone without closing the curtains to ensure the heat from the radiator is not blocked.",
-		"lt": "Apartamente rasite skalbimo mašiną, indaplovę, dujinę kaitlentę (valdoma paspaudimu be degtukų), orkaitę, mikrobangę, Dolce Gusto kavos kapsulinį aparatą. Pagrindiniame miegamajame geresniam miegui galite naudoti pilnai kambarį temdančias žaliuzes esančias ant langų. Žiemos metu galite naudoti tik žaliuzes netraukiant užuolaidų, kad nuo radiatoriaus nebūtų uždengiama šiluma."
+	"stikliu_info_equipment_p1": {
+		"en": "The apartment includes a washing machine, dishwasher, gas stove (operated by push-button ignition without matches), oven, microwave, and a Dolce Gusto coffee capsule machine.",
+		"lt": "Apartamente rasite skalbimo mašiną, indaplovę, dujinę kaitlentę (valdoma paspaudimu be degtukų), orkaitę, mikrobangę, Dolce Gusto kavos kapsulinį aparatą."
+	},
+	"stikliu_info_equipment_p2": {
+		"en": "In the main bedroom, for better sleep, you can use the blackout blinds on the windows.",
+		"lt": "Pagrindiniame miegamajame geresniam miegui galite naudoti pilnai kambarį temdančias žaliuzes esančias ant langų."
 	},
 	"stikliu_info_departure_title": {
 		"en": "Departure",
 		"lt": "Išvykimas"
 	},
 	"stikliu_info_departure_p1": {
-		"en": "Leave all keys in the same place where you found them (don’t forget to leave the additional key set in the apartment).",
-		"lt": "Visus raktus palikite ten pat kur radote (nepamirškite palikti papildomo raktų komplekto bute)"
+		"en": "Turn off all extra electrical devices (electric radiators and heated floors).",
+		"lt": "Išjunkite visus papildomus elektros prietaisus (elektrinius radiatorius bei šildomas grindis). "
 	},
 	"stikliu_info_departure_p2": {
-		"en": "Turn off all extra electrical devices (electric radiators and heated floors). Take out the trash to the outdoor container. There is a code lock at the courtyard gate. The pedestrian gate remains open during the day and closes automatically in the evening. It can be opened with a code or a magnetic key fob. The main parking gate opens by pressing the letter \"A\" on the remote control. The stairwell door also has a code lock, opened with the same code or magnetic key fob. You will receive information about the entrance code, and parking remote the day before arrival.",
-		"lt": "Išjunkite visus papildomus elektros prietaisus (elektrinius radiatorius bei šildomas grindis). Šiukšles išneškite į konteinerį lauke. Prie vartų į kiemą yra kodinė spyna. Pėsčiųjų varteliai dienos metu būna atidaryti, vakare užsidaro automatiškai. Atidaroma su kodu arba magnetiu raktu. Didieji vartai parkavimui atsidaro su pulteliu paspaudus raidę \"A\". Prie laiptinės durų taip pat yra kodinė spyna. Atidaroma su tuo pačiu kodu arba magnetiniu raktu. Informaciją su įėjimo kodu, kur rasti pultelį parkingui gausite dieną prieš atvykstant."
+		"en": "Take out the trash to the outdoor container.",
+		"lt": "Šiukšles išneškite į konteinerį lauke. "
+	},
+	"stikliu_info_parking_title": {
+		"en": "Parking",
+		"lt": "Parkavimas"
+	},
+	"stikliu_info_parking_p": {
+		"en": "The main gate for parking opens with the remote control by pressing the letter \"A\" and closes automatically. The remote control can be found in keybox No. 2 in the yard on the wall. For the code, please contact the owner.",
+		"lt": "Didieji vartai parkavimui atsidaro su pulteliu paspaudus raidę \"A\", užsidaro automatiškai. Pultelį rasite dežutėje Nr. 2 kieme ant sienos. Dėl kodo teirautis šeimininko."
 	},
 	"pilies_parking_title": {
 		"en": "Directions with parking",

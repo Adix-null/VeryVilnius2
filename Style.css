@@ -810,7 +810,7 @@ navbar-component-phone {
 	line-height: 1.7;
 }
 .content.open {
-	max-height: 400px;
+	max-height: 700px;
 	padding: var(--space-3) var(--space-8);
 }
 
