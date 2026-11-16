@@ -161,11 +161,11 @@
 		"lt": "Šiukšlės"
 	},
 	"stikliu_info_trash_p1": {
-		"en": "The trash container is located 200m away from the apartment in Antokolskio Street. It is locked.",
-		"lt": "Šiukšlius konteinerius rasite kieme už 200m nuo apartamento Antokolskio g. Jis yra rakinamas. "
+		"en": "The trash container is located 200m away from the apartment in Antokolskio st. It is locked.",
+		"lt": "Šiukšlių konteinerius rasite kieme už 200m nuo apartamento Antokolskio g. Jis yra rakinamas. "
 	},
 	"stikliu_info_trash_p2": {
-		"en": "The code is <b>1569</b> — press one number at a time, not all at once.",
+		"en": "The code is <b>1569</b>, press one number at a time, not all at once.",
 		"lt": "Kodas <b>1569</b>, spauskite po vieną skaičių, ne visus vienu metu."
 	},
 	"stikliu_info_equipment_title": {
