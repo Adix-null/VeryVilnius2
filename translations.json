@@ -77,15 +77,15 @@
 		"lt": "Įėjimas"
 	},
 	"stikliu_info_entry_p1": {
-		"en": "You will receive information about the entrance code and parking remote the day before arrival.",
-		"lt": "Įėjimo kodas prie vartų ir prie laiptinės yra 2*3909"
+		"en": "The code for the gate and the staircase is 2*3909.",
+		"lt": "Įėjimo kodas prie vartų ir prie laiptinės yra 2*3909."
 	},
 	"stikliu_info_entry_p2": {
 		"en": "The code for the apartment door will be sent to you by email alongside arrival instructions.",
 		"lt": "Kodą nuo apartamento durų rasite el. pašte su atvykimo instrukcija."
 	},	
 	"stikliu_info_entry_p3": {
-		"en": "",
+		"en": "In the apartment you will find an additional magnetic and smart key, which can be used instead of the code. The magnetic key works at the entrance to the staircase, the smart key works at the apartment door.",
 		"lt": "Bute rasite papildomus magnetinį ir išmaųjį raktą, kuriuos galima naudoti vietoj kodo. Magnetinis raktas veikia prie laiptinės, išmanusis raktas nuo buto durų."
 	},
 	"stikliu_info_wifi_title": {
